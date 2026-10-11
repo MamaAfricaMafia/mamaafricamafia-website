@@ -7,48 +7,47 @@
   <title>Mama Africa Mafia — Coming soon</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500&display=swap');
-    :root{--paper:#f7f4ed;--ink:#183c35;--muted:#66766b;--gold:#c6914a}
+    :root{--paper:#f7f4ed;--ink:#183c35;--gold:#c6914a}
     *{box-sizing:border-box}
-    html{scroll-behavior:smooth}
-    body{margin:0;background:var(--paper);color:var(--ink);font-family:'DM Sans',Arial,sans-serif}
+    html,body{height:100%;overflow:hidden}
+    body{margin:0;background:#183c35;color:#fff;font-family:'DM Sans',Arial,sans-serif}
     a{color:inherit}
-    .topbar{height:86px;display:flex;align-items:center;justify-content:space-between;padding:0 clamp(22px,5vw,80px);border-bottom:1px solid #deddd2}
+    .page{position:relative;height:100vh;height:100dvh;min-height:0;overflow:hidden;isolation:isolate}
+    .topbar{position:absolute;z-index:4;top:0;left:0;right:0;height:86px;display:flex;align-items:center;justify-content:space-between;padding:0 clamp(22px,5vw,80px);border-bottom:1px solid #ffffff38}
     .brand{display:flex;align-items:center;gap:12px;text-decoration:none}
     .brand svg{width:43px;height:43px;flex:none}
+    .brand svg path{stroke:#fff}
+    .brand svg path:nth-child(-n+2){stroke:#f2c885}
     .brand-name{font-family:'Playfair Display',Georgia,serif;font-size:22px;line-height:.92;letter-spacing:-.055em}
     .brand-name span{display:block}
-    .top-note{font-size:10px;letter-spacing:.24em;font-weight:700;text-transform:uppercase;color:#777c70}
-    .intro{min-height:410px;padding:68px 20px 60px;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center}
-    .eyebrow{color:#a7783d;text-transform:uppercase;letter-spacing:.28em;font-size:10px;font-weight:700}
-    h1{max-width:900px;margin:19px auto 16px;font-family:'Playfair Display',Georgia,serif;font-weight:400;letter-spacing:-.055em;line-height:1.1;font-size:clamp(42px,6.3vw,84px)}
-    .intro p{max-width:540px;margin:0;color:var(--muted);font-size:15px;line-height:1.75}
-    .cta{display:inline-flex;align-items:center;gap:12px;margin-top:28px;background:var(--ink);color:white;text-decoration:none;padding:15px 22px;font-size:12px;font-weight:700;letter-spacing:.075em;text-transform:uppercase;transition:background .2s,transform .2s}
-    .cta:hover,.cta:focus-visible{background:#2d5b4e;transform:translateY(-2px)}
+    .top-note{font-size:10px;letter-spacing:.24em;font-weight:700;text-transform:uppercase;color:#fff;opacity:.9}
+    .intro{position:absolute;z-index:3;inset:86px 0 54px;padding:20px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+    .eyebrow{color:#f2c885;text-transform:uppercase;letter-spacing:.28em;font-size:10px;font-weight:700;text-shadow:0 1px 12px #102a26}
+    h1{max-width:900px;margin:19px auto 16px;font-family:'Playfair Display',Georgia,serif;font-weight:400;letter-spacing:-.055em;line-height:1.1;font-size:clamp(42px,6.3vw,84px);text-shadow:0 2px 24px #102a2680}
+    .intro p{max-width:540px;margin:0;color:#fff;font-size:15px;line-height:1.75;text-shadow:0 1px 15px #102a26}
+    .cta{display:inline-flex;align-items:center;gap:12px;margin-top:28px;background:var(--paper);color:var(--ink);text-decoration:none;padding:15px 22px;font-size:12px;font-weight:700;letter-spacing:.075em;text-transform:uppercase;transition:background .2s,transform .2s;box-shadow:0 9px 30px #09292455}
+    .cta:hover,.cta:focus-visible{background:#fff;transform:translateY(-2px)}
     .cta svg{width:19px;height:19px;fill:currentColor}
-    .gallery{position:relative;height:min(67vw,670px);min-height:430px;overflow:hidden;background:#406d6b;isolation:isolate}
+    .gallery{position:absolute;inset:0;z-index:0;overflow:hidden;background:#406d6b}
     .slide{position:absolute;inset:0;opacity:0;transition:opacity 1.2s ease}
     .slide.is-active{opacity:1;z-index:1}
     .slide img{width:100%;height:100%;display:block;object-fit:cover;object-position:center 48%}
     .slide:first-child img{object-position:center 58%}
     .slide:nth-child(2) img{object-position:center 48%}
     .slide:nth-child(3) img{object-position:center 52%}
-    .gallery:after{content:"";position:absolute;z-index:2;inset:0;pointer-events:none;background:linear-gradient(180deg,transparent 56%,rgba(4,28,25,.62) 100%)}
-    .gallery-bottom{position:absolute;z-index:3;left:clamp(22px,5vw,80px);right:clamp(22px,5vw,80px);bottom:30px;display:flex;align-items:end;justify-content:space-between;gap:20px;color:white}
-    .caption-label{display:block;font-size:10px;text-transform:uppercase;letter-spacing:.25em;font-weight:700;opacity:.8;margin-bottom:9px}
-    .caption-title{font-family:'Playfair Display',Georgia,serif;font-size:clamp(25px,4vw,45px);line-height:1.08;letter-spacing:-.045em}
-    .controls{display:flex;align-items:center;gap:10px}
-    .controls button{border:1px solid #ffffff8a;background:#12392c50;color:white;backdrop-filter:blur(4px);cursor:pointer;width:42px;height:42px;display:grid;place-items:center;font-size:22px;line-height:1;transition:background .2s}
-    .controls button:hover,.controls button:focus-visible{background:#fff;color:var(--ink)}
-    .count{font-size:11px;letter-spacing:.14em;min-width:54px;text-align:center}
-    .footer{padding:26px clamp(22px,5vw,80px) 31px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:11px;color:#6e786e}
-    .footer strong{color:var(--ink);font-weight:700}
-    .credits{max-width:720px;text-align:right;line-height:1.7}
+    .gallery:after{content:"";position:absolute;z-index:2;inset:0;pointer-events:none;background:linear-gradient(90deg,#082f32a1,#102c3680 55%,#092d2d9e),linear-gradient(180deg,#06242470,transparent 22%,transparent 72%,#0624249e)}
+    .footer{position:absolute;z-index:4;bottom:0;left:0;right:0;padding:13px clamp(22px,5vw,80px) 18px;display:flex;justify-content:space-between;align-items:end;gap:16px;flex-wrap:wrap;font-size:10px;color:#ffffffd9;text-shadow:0 1px 9px #102a26}
+    .footer strong{color:#fff;font-weight:700}
+    .credits{max-width:720px;text-align:right;line-height:1.5}
     .credits a{text-decoration:underline;text-underline-offset:3px}
-    @media(max-width:650px){.topbar{height:74px}.brand svg{width:37px;height:37px}.brand-name{font-size:19px}.top-note{display:none}.intro{min-height:380px;padding:54px 22px}.intro p{font-size:14px}.gallery{height:55vh;min-height:390px}.gallery-bottom{bottom:22px}.controls{gap:5px}.controls button{width:36px;height:36px}.count{min-width:43px}.footer{padding-block:22px}.credits{text-align:left}}
-    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.slide,.cta{transition:none}}
+    @media(max-width:650px){.topbar{height:72px}.brand svg{width:37px;height:37px}.brand-name{font-size:19px}.top-note{display:none}.intro{inset:72px 0 74px;padding:16px 22px}.intro p{font-size:14px}.cta{font-size:11px;padding:14px 16px}.slide img{object-position:58% center}.footer{padding:10px 20px 15px;font-size:9px;gap:5px}.credits{text-align:left}}
+    @media(max-height:650px){.topbar{height:66px}.intro{inset:66px 0 54px}.eyebrow{font-size:9px}h1{font-size:clamp(34px,6vw,62px);margin:10px auto}.intro p{font-size:13px;line-height:1.5}.cta{margin-top:16px;padding:11px 15px}.footer{font-size:9px;padding-bottom:10px}}
+    @media(max-height:520px){.footer{display:none}.intro{inset:60px 0 0}h1{font-size:clamp(30px,5vw,50px)}}
+    @media(prefers-reduced-motion:reduce){.slide,.cta{transition:none}}
   </style>
 </head>
 <body>
+  <div class="page">
   <header class="topbar">
     <a class="brand" href="#top" aria-label="Mama Africa Mafia home">
       <svg viewBox="0 0 52 52" aria-hidden="true" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -72,40 +71,27 @@
     </section>
     <section class="gallery" aria-label="Mafia Island photo gallery" id="gallery">
       <div class="slide is-active"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Mafia_Island%2C_Tanzania.jpg/1280px-Mafia_Island%2C_Tanzania.jpg" alt="Palm-lined beach on Mafia Island" fetchpriority="high"></div>
-      <div class="slide"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Mafia_Island_%2851554991378%29.jpg/1280px-Mafia_Island_%2851554991378%29.jpg" alt="Coast of Mafia Island at Chole Shamba" loading="lazy"></div>
-      <div class="slide"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Mafia_Island%2C_Tanzania_%2851555487539%29.jpg/1280px-Mafia_Island%2C_Tanzania_%2851555487539%29.jpg" alt="Landscape on Mafia Island" loading="lazy"></div>
-      <div class="gallery-bottom">
-        <div><span class="caption-label">Mafia Island, Tanzania</span><span class="caption-title" id="slide-caption">Island light</span></div>
-        <div class="controls" aria-label="Photo controls"><button type="button" id="prev" aria-label="Previous photo">‹</button><span class="count" id="slide-count">01 / 03</span><button type="button" id="next" aria-label="Next photo">›</button></div>
-      </div>
+      <div class="slide"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Mafia_Island_%2851554991378%29.jpg/1280px-Mafia_Island_%2851554991378%29.jpg" alt="Coast of Mafia Island at Chole Shamba" loading="eager"></div>
+      <div class="slide"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Mafia_Island%2C_Tanzania_%2851555487539%29.jpg/1280px-Mafia_Island%2C_Tanzania_%2851555487539%29.jpg" alt="Landscape on Mafia Island" loading="eager"></div>
     </section>
   </main>
   <footer class="footer">
     <strong>Mama Africa Mafia · Utende</strong>
     <span class="credits">Photos: <a href="https://commons.wikimedia.org/wiki/File:Mafia_Island,_Tanzania.jpg" target="_blank" rel="noopener noreferrer">Gill Penney</a> and Nina R (<a href="https://commons.wikimedia.org/wiki/File:Mafia_Island_(51554991378).jpg" target="_blank" rel="noopener noreferrer">1</a>, <a href="https://commons.wikimedia.org/wiki/File:Mafia_Island,_Tanzania_(51555487539).jpg" target="_blank" rel="noopener noreferrer">2</a>), <a href="https://creativecommons.org/licenses/by/2.0/" target="_blank" rel="noopener noreferrer">CC BY 2.0</a>. Images cropped to fit.</span>
   </footer>
+  </div>
   <script>
     const slides = [...document.querySelectorAll('.slide')];
-    const titles = ['Island light', 'A place to slow down', 'The island awaits'];
-    const caption = document.getElementById('slide-caption');
-    const count = document.getElementById('slide-count');
-    const gallery = document.getElementById('gallery');
     let current = 0;
     let timer;
     function show(index) {
       current = (index + slides.length) % slides.length;
       slides.forEach((slide, i) => slide.classList.toggle('is-active', i === current));
-      caption.textContent = titles[current];
-      count.textContent = `${String(current + 1).padStart(2, '0')} / 03`;
     }
     function play() {
       clearInterval(timer);
       if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches && !document.hidden) timer = setInterval(() => show(current + 1), 5500);
     }
-    document.getElementById('prev').addEventListener('click', () => { show(current - 1); play(); });
-    document.getElementById('next').addEventListener('click', () => { show(current + 1); play(); });
-    gallery.addEventListener('mouseenter', () => clearInterval(timer));
-    gallery.addEventListener('mouseleave', play);
     document.addEventListener('visibilitychange', play);
     play();
   </script>
