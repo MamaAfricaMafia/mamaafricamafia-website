@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" role="img" aria-labelledby="mama-africa-logo-title mama-africa-logo-desc">
+  <title id="mama-africa-logo-title">Mama Africa Mafia</title>
+  <desc id="mama-africa-logo-desc">A woman's profile with a wrapped head, an island sun and three ocean waves.</desc>
+  <g stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M7.7 21a7.3 7.3 0 0 1 3.4-13.7M4 8 2 6M5 15H2M10 4V2"/>
+    <path d="M17 29v-4.2c-4.5-1.3-7.3-5-7.3-9.5C9.7 9.4 14.8 5 21 5c5.2 0 9 3.9 9 9.1 0 1.7 1.6 3.4 4.1 5.3l-3 1.5c.1 1.1.8 1.6 1.2 2.2l-1.6 1.3 1 1.1c-1.1 1.9-2.7 2.8-5 2.7V31"/>
+    <path d="M10 15.4c5.6-3.4 12.2-4.5 19.7-2.9M14.6 7.1c4.2.4 7.5 2 9.4 4.1M27.3 17.5h1.1"/>
+    <path d="M3 34c7-4 14 4 21 0s14 4 21 0M3 39c7-4 14 4 21 0s14 4 21 0M3 44c7-4 14 4 21 0s14 4 21 0"/>
+  </g>
+</svg>
