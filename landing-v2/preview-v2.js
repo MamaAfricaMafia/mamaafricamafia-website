@@ -34,7 +34,7 @@
     return `<article class="tour-card" id="tour-${id}" aria-labelledby="title-${id}">
       <div class="tour-cover">
         <img src="${escape(tour.image)}" srcset="${escape(tour.imageSmall)} ${tour.imageSmallWidth || 640}w, ${escape(tour.image)} ${tour.imageWidth || 1080}w" sizes="(max-width:760px) calc(100vw - 40px), calc((100vw - 140px) / 3)" alt="${escape(tour.alt)}" width="1448" height="1086" loading="lazy">
-        <span class="tour-price">${Number.isFinite(tour.priceAmount) }${escape(priceLabel)}</span>
+        <span class="tour-price">${escape(priceLabel)}</span>
         ${tour.seasonal ? '<span class="tour-season">Seasonal</span>' : ''}
         <div class="tour-cover-copy"><h3 id="title-${id}">${escape(tour.name)}</h3><p>${escape(tour.subtitle)}</p><span class="tour-cover-action">Explore this tour <span class="tour-plus">${plus}</span></span></div>
         <button class="tour-toggle" type="button" data-card-toggle aria-expanded="false" aria-controls="content-${id}" aria-label="Open ${escape(tour.name)} tour details"></button>
