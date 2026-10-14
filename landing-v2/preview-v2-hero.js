@@ -7,8 +7,8 @@
   if (!hero || !media || images.length < 2) return;
 
   const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
-  const interval = 12000;
-  const fadeDuration = 2200;
+  const interval = 9000;
+  const fadeDuration = 1450;
   const leavingTimers = new Map();
   let activeIndex = Math.max(0, images.findIndex((image) => image.classList.contains("is-active")));
   let playing = false;

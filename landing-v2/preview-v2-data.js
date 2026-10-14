@@ -135,7 +135,7 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
     {
       "id": "kitutia-mange-snorkeling",
       "name": "Kitutia & Mange Snorkeling with Lunch",
-      "subtitle": "Snorkel at Kitutia and Mange, with lunch.",
+      "subtitle": "Snorkel at Kitutia and Mange, then enjoy fresh fish for lunch.",
       "price": "$65",
       "priceAmount": 65,
       "priceCurrency": "USD",
@@ -149,26 +149,30 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
       "image": "assets/preview-v2/snorkelling-1080.webp",
       "imageSmall": "assets/preview-v2/snorkelling-640.webp",
       "alt": "Illustrative preview image for Kitutia & Mange Snorkeling with Lunch",
-      "description": "Travel by boat for snorkeling around Kitutia and Mange. The order of reef stops follows sea conditions; confirm lunch arrangements with the team.",
+      "description": "Travel by boat for snorkeling around Kitutia and Mange. Lunch includes fresh fish cooked on the spot. The order of reef stops follows sea conditions; confirm lunch arrangements with the team.",
       "steps": [
         {
           "title": "Prepare for the day",
-          "text": "Meet your guide, check equipment and discuss the planned reef stops."
+          "text": "Meet your guide, check equipment and discuss the reef stops."
         },
         {
           "title": "Travel to the first reef",
-          "text": "Enjoy the boat journey and listen to the snorkeling briefing."
+          "text": "Take the boat and listen to the snorkeling briefing."
         },
         {
           "title": "Explore Mange and Kitutia",
-          "text": "Snorkel suitable spots in both areas when conditions allow, with a rest aboard between sessions."
+          "text": "Snorkel suitable spots in both areas when conditions allow."
+        },
+        {
+          "title": "Enjoy lunch",
+          "text": "Have a meal of fresh fish cooked on the spot."
         },
         {
           "title": "Return to Mafia",
-          "text": "Finish your time in the water and take the boat back to shore."
+          "text": "Take the boat back to shore."
         }
       ],
-      "planningNote": "Confirm lunch, equipment, reef access and any park fees.",
+      "planningNote": "Confirm lunch arrangements, equipment, reef access and any park fees.",
       "sources": [
         "https://www.mafiadiving.com/wp-content/uploads/2019/12/MID-EXCURSIONS.pdf"
       ],
@@ -195,20 +199,20 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
       "description": "Take a guided boat trip for snorkeling around Fisherman Island. The chosen spot and water time depend on sea conditions.",
       "steps": [
         {
-          "title": "Plan your visit",
-          "text": "Confirm the route, timing and arrangements with the Mama Africa team."
+          "title": "Meet your guide",
+          "text": "Confirm the route, equipment and sea conditions."
         },
         {
-          "title": "Set out with your guide",
-          "text": "Meet your local guide and travel to the experience."
+          "title": "Cross to Fisherman Island",
+          "text": "Travel by boat with your guide."
         },
         {
-          "title": "Enjoy the experience",
-          "text": "Explore at a comfortable pace, following local guidance and conditions."
+          "title": "Snorkel the island waters",
+          "text": "Explore a suitable spot following the briefing and local guidance."
         },
         {
-          "title": "Return together",
-          "text": "Complete the agreed return journey."
+          "title": "Return to shore",
+          "text": "Complete the boat journey back."
         }
       ],
       "planningNote": "Confirm the route, equipment, sea conditions and any park fees.",
@@ -221,7 +225,7 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
     {
       "id": "marimbani-sandbank-picnic",
       "name": "Marimbani Sandbank & Picnic",
-      "subtitle": "A picnic on a sandbank revealed by the tide.",
+      "subtitle": "A sandbank picnic with fresh fish cooked on the spot.",
       "price": "$20",
       "priceAmount": 20,
       "priceCurrency": "USD",
@@ -235,7 +239,7 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
       "image": "assets/preview-v2/sandbank-1080.webp",
       "imageSmall": "assets/preview-v2/sandbank-640.webp",
       "alt": "Illustrative preview image for Marimbani Sandbank & Picnic",
-      "description": "Visit Marimbani Sandbank for time by the water and a picnic. Departure and access depend on the tide; confirm picnic arrangements before booking.",
+      "description": "Visit Marimbani Sandbank for time by the water and a picnic. The meal includes fresh fish cooked on the spot. Departure and access depend on the tide; confirm picnic arrangements with the team.",
       "steps": [
         {
           "title": "Time the visit",
@@ -246,15 +250,19 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
           "text": "Travel towards the exposed sand by boat."
         },
         {
-          "title": "Enjoy the sand",
+          "title": "Enjoy the sandbank",
           "text": "Walk, rest or swim as conditions allow."
         },
         {
-          "title": "Leave with the tide",
-          "text": "Return within the agreed access window."
+          "title": "Share a fresh fish meal",
+          "text": "Enjoy fresh fish cooked on the spot as part of the picnic."
+        },
+        {
+          "title": "Return with the tide",
+          "text": "Leave within the agreed access window."
         }
       ],
-      "planningNote": "Confirm tide timing, picnic inclusions and transport.",
+      "planningNote": "Tide and weather dependent. Confirm picnic arrangements and transport.",
       "sources": [
         "https://arushatrips.com/tour/marimbani-sandbank-picnic-mafia-island/"
       ],
@@ -393,7 +401,7 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
     {
       "id": "mama-africa-north-tour",
       "name": "Mama Africa North Tour",
-      "subtitle": "A locally guided tour of Mafia’s northern coast.",
+      "subtitle": "Coconut industry, Kirongwe fishmarket, lighthouse, Kanga Beach and hippo watching.",
       "price": "$60",
       "priceAmount": 60,
       "priceCurrency": "USD",
@@ -407,26 +415,30 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
       "image": "assets/preview-v2/lighthouse-1080.webp",
       "imageSmall": "assets/preview-v2/lighthouse-640.webp",
       "alt": "Illustrative preview image for Mama Africa North Tour",
-      "description": "Explore the north with stops for the coconut industry, Kirongwe fishmarket, the lighthouse, Kanga Beach and hippo watching. Route and wildlife sightings depend on local conditions.",
+      "description": "Follow the north-coast route through the coconut industry, Kirongwe fishmarket, the lighthouse and Kanga Beach, with a hippo-watching stop. Route and wildlife sightings depend on local conditions.",
       "steps": [
         {
-          "title": "Discover the coconut industry",
-          "text": "Learn about local coconut production and its place in island life."
+          "title": "Coconut industry",
+          "text": "Visit the coconut industry and learn about this part of island life."
         },
         {
-          "title": "Visit Kirongwe fishmarket",
-          "text": "See the market during an active time, as conditions allow."
+          "title": "Kirongwe fishmarket",
+          "text": "Stop at the fishmarket and see its activity during your visit."
         },
         {
-          "title": "Explore the coast",
-          "text": "Visit the lighthouse and spend time at Kanga Beach."
+          "title": "Lighthouse",
+          "text": "Continue to the lighthouse."
         },
         {
-          "title": "Look for hippos",
-          "text": "Observe from a safe distance with local guidance; sightings are not guaranteed."
+          "title": "Kanga Beach",
+          "text": "Spend time at Kanga Beach."
+        },
+        {
+          "title": "Hippo watching",
+          "text": "Look for hippos from a safe distance with local guidance; sightings are not guaranteed."
         }
       ],
-      "planningNote": "Confirm transport, stop order, access and wildlife conditions.",
+      "planningNote": "Stops follow the route supplied by Mama Africa. Confirm transport, access and wildlife conditions.",
       "sources": [
         "https://mafiapotwesafaris.com/experience/north-coast"
       ],
@@ -452,68 +464,25 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
       "description": "Take a locally guided walk through Utende and learn about the village at a respectful pace.",
       "steps": [
         {
-          "title": "Plan your visit",
-          "text": "Confirm the route, timing and arrangements with the Mama Africa team."
+          "title": "Meet your local guide",
+          "text": "Agree the walking route and meeting point in Utende."
         },
         {
-          "title": "Set out with your guide",
-          "text": "Meet your local guide and travel to the experience."
+          "title": "Walk through the village",
+          "text": "Explore Utende at a respectful pace with your guide."
         },
         {
-          "title": "Enjoy the experience",
-          "text": "Explore at a comfortable pace, following local guidance and conditions."
+          "title": "Learn about local life",
+          "text": "Pause at places along the route and hear about the community."
         },
         {
-          "title": "Return together",
-          "text": "Complete the agreed return journey."
+          "title": "Finish the village walk",
+          "text": "Return to the agreed meeting point."
         }
       ],
       "planningNote": "Confirm meeting point, route and timing with the team.",
       "sources": [
         "https://arushatrips.com/tour/chole-island-tour-mafia-island/"
-      ],
-      "imageWidth": 1080,
-      "imageSmallWidth": 640
-    },
-    {
-      "id": "whale-watching",
-      "name": "Whale Watching",
-      "subtitle": "Look for whales in Mafia’s surrounding waters.",
-      "price": "$60",
-      "priceAmount": 60,
-      "priceCurrency": "USD",
-      "priceDemo": false,
-      "priceVerified": true,
-      "categories": [
-        "ocean",
-        "wildlife"
-      ],
-      "seasonal": true,
-      "image": "assets/preview-v2/whale-shark-1080.webp",
-      "imageSmall": "assets/preview-v2/whale-shark-640.webp",
-      "alt": "Illustrative preview image for Whale Watching",
-      "description": "Head out by boat to look for whales. Encounters depend on season and conditions, and sightings are not guaranteed.",
-      "steps": [
-        {
-          "title": "Meet and prepare",
-          "text": "Agree conditions, equipment and wildlife etiquette."
-        },
-        {
-          "title": "Search the water",
-          "text": "Travel with the crew looking for sharks."
-        },
-        {
-          "title": "Observe the encounter",
-          "text": "Watch from the boat; enter only as advised."
-        },
-        {
-          "title": "Return to shore",
-          "text": "Complete the boat journey back."
-        }
-      ],
-      "planningNote": "Confirm season, route and sea conditions. Wildlife sightings are not guaranteed.",
-      "sources": [
-        "https://afrowhalesharksafari.com/whale-shark-swimming/"
       ],
       "imageWidth": 1080,
       "imageSmallWidth": 640
@@ -537,20 +506,24 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
       "description": "Explore the fish and fruit market in Kilindoni, then end the outing at sunset. Market activity and sunset viewing arrangements vary by day.",
       "steps": [
         {
-          "title": "Plan your visit",
-          "text": "Confirm the route, timing and arrangements with the Mama Africa team."
+          "title": "Head to Kilindoni",
+          "text": "Meet your guide and agree the timing for the visit."
         },
         {
-          "title": "Set out with your guide",
-          "text": "Meet your local guide and travel to the experience."
+          "title": "Visit the fish market",
+          "text": "Walk through the market and observe its activity."
         },
         {
-          "title": "Enjoy the experience",
-          "text": "Explore at a comfortable pace, following local guidance and conditions."
+          "title": "Visit the fruit market",
+          "text": "Continue to the fruit market."
         },
         {
-          "title": "Return together",
-          "text": "Complete the agreed return journey."
+          "title": "Enjoy the sunset",
+          "text": "Watch the sunset from the agreed spot."
+        },
+        {
+          "title": "Return to your meeting point",
+          "text": "Finish the outing with your guide."
         }
       ],
       "planningNote": "Confirm market timing, transport and sunset location.",
@@ -578,20 +551,20 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
       "description": "Enjoy an evening cruise in a dhow and watch the sunset over the water. Departure and route depend on weather and sea conditions.",
       "steps": [
         {
-          "title": "Plan your visit",
-          "text": "Confirm the route, timing and arrangements with the Mama Africa team."
+          "title": "Meet the dhow crew",
+          "text": "Confirm departure time and sea conditions."
         },
         {
-          "title": "Set out with your guide",
-          "text": "Meet your local guide and travel to the experience."
+          "title": "Board the dhow",
+          "text": "Set out for an evening cruise on the water."
         },
         {
-          "title": "Enjoy the experience",
-          "text": "Explore at a comfortable pace, following local guidance and conditions."
+          "title": "Watch the sunset",
+          "text": "Enjoy the sunset from the dhow."
         },
         {
-          "title": "Return together",
-          "text": "Complete the agreed return journey."
+          "title": "Return to shore",
+          "text": "Complete the cruise with the crew."
         }
       ],
       "planningNote": "Confirm departure time, dhow arrangements and sea conditions.",
