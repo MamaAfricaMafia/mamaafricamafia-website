@@ -2,7 +2,6 @@
   "use strict";
   const button = document.querySelector(".whatsapp-float");
   if (!button) return;
-  const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
   const firstDelay = 5000;
   const visibleDuration = 4500;
   const repeatDelay = 150000;
