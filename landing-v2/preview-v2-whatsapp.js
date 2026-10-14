@@ -4,7 +4,7 @@
   if (!button) return;
   const firstDelay = 5000;
   const visibleDuration = 4500;
-  const repeatDelay = 150000;
+  const repeatDelay = 30000;
   let openTimer = null;
   let closeTimer = null;
   let repeatTimer = null;
@@ -13,7 +13,7 @@
   function closeHint() {
     if (!isOpen) return;
     isOpen = false;
-    button.classList.remove("is-expanded");
+    button.classList.remove("is-expanded", "is-personal");
     closeTimer = null;
     repeatTimer = window.setTimeout(openHint, repeatDelay);
   }
