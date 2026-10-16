@@ -21,23 +21,31 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
       "image": "assets/preview-v2/snorkelling-1080.webp",
       "imageSmall": "assets/preview-v2/snorkelling-640.webp",
       "alt": "Illustrative preview image for Snorkeling Trip Chole Bay",
-      "description": "Take a boat trip into Chole Bay for a guided snorkeling experience. The exact reef stop follows the day’s sea conditions.",
+      "description": "Discover the underwater beauty of Chole Bay on a guided snorkeling adventure through some of Mafia Island's most fascinating coral reefs.\n\nExplore three different snorkeling locations, each offering unique coral formations, colorful tropical fish, and an incredible variety of marine life.\n\nThe excursion is carefully planned around the tides to provide favorable visibility and snorkeling conditions. Between stops, relax aboard the boat and enjoy fresh fruit, drinking water, and light snacks while taking in the beautiful surroundings of Chole Bay.",
       "steps": [
         {
-          "title": "Meet and prepare",
-          "text": "Meet your guide, discuss swimming confidence and prepare your snorkeling equipment."
+          "title": "Meeting at Swahili Local Restaurant",
+          "text": "Meet your guides, receive your snorkeling equipment, and make sure everything fits comfortably. Guests are welcome to use their own equipment."
         },
         {
-          "title": "Travel across Chole Bay",
-          "text": "Take the boat to a snorkeling spot selected for the conditions."
+          "title": "Boarding and Introduction",
+          "text": "Head to the beach, board the boat, and meet your captain and local snorkeling guides."
         },
         {
-          "title": "Explore the reef",
-          "text": "Enter the water after the briefing and look for marine life while keeping clear of coral."
+          "title": "First Snorkeling Stop",
+          "text": "Begin exploring the underwater world at one of Chole Bay's snorkeling locations, such as Big Rock, Small Rock, or Coral Garden, depending on sea conditions."
         },
         {
-          "title": "Return to shore",
-          "text": "Climb back aboard, relax and complete the return crossing."
+          "title": "Second Snorkeling Stop",
+          "text": "Travel by boat to another coral reef and discover different marine habitats and tropical fish."
+        },
+        {
+          "title": "Third Snorkeling Stop",
+          "text": "Enjoy your final snorkeling session at a third location, with more opportunities to observe the diverse underwater life."
+        },
+        {
+          "title": "Return to the Beach",
+          "text": "Relax during the boat journey back to your starting point."
         }
       ],
       "planningNote": "Confirm snorkeling equipment, sea conditions and any park fees.",
@@ -63,23 +71,35 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
       "image": "assets/preview-v2/village-1080.webp",
       "imageSmall": "assets/preview-v2/village-640.webp",
       "alt": "Illustrative preview image for Chole Village Tour",
-      "description": "Cross to Chole for a walk through the archipelago’s living history. Explore shaded village paths and historic remains, with the possibility of visiting traditional dhow builders. Look into the treetops for flying foxes while respecting local people and the animals.",
+      "description": "Step into the authentic island life of Chole, a peaceful tropical village located just off the coast of Mafia Island.\n\nExplore its narrow pathways, meet local residents, and discover the traditions that have shaped this small island community for generations.\n\nObserve the remarkable flying fox fruit bats, explore historical ruins, and learn about local activities such as seaweed farming and traditional wooden boat building.\n\nThis experience offers a unique opportunity to connect with the people of Chole Island and discover a side of Mafia that goes far beyond its beautiful beaches.",
       "steps": [
         {
-          "title": "Cross to Chole",
-          "text": "Take the boat connection arranged for your visit."
+          "title": "Departure from Utende Beach",
+          "text": "Board a traditional boat for a scenic journey across the water to Chole Island."
         },
         {
-          "title": "Walk the heritage paths",
-          "text": "Explore village lanes and historic remains."
+          "title": "Village Walking Tour",
+          "text": "Explore the peaceful village on foot with a local guide and discover the daily life and traditions of the island community."
         },
         {
-          "title": "Discover dhow craftsmanship",
-          "text": "Visit the boat-building area when accessible."
+          "title": "Flying Fox Observation",
+          "text": "Visit areas inhabited by the island's impressive fruit bats and observe these fascinating animals in their natural environment."
         },
         {
-          "title": "Look into the treetops",
-          "text": "Observe wildlife before the return crossing."
+          "title": "Historical Ruins",
+          "text": "Discover remnants of Chole's history and learn about the island's cultural heritage."
+        },
+        {
+          "title": "Seaweed Farming Traditions",
+          "text": "Learn how local women collect, dry, and process seaweed for products such as soap and shampoo. Observe these activities when they are taking place."
+        },
+        {
+          "title": "Traditional Dhow Boat Building",
+          "text": "Visit local boat-building areas and discover how skilled craftsmen construct traditional wooden dhow boats."
+        },
+        {
+          "title": "Return to Utende Beach",
+          "text": "Board the boat for the return journey to Mafia Island."
         }
       ],
       "planningNote": "Craft activity and sightings vary. Ask before photographing people.",
@@ -106,23 +126,31 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
       "image": "assets/preview-v2/lagoon-1080.webp",
       "imageSmall": "assets/preview-v2/lagoon-640.webp",
       "alt": "Illustrative preview image for Blue Lagoons and Kua Ruins",
-      "description": "Visit the Blue Lagoon and explore the historic Kua Ruins. The route, access and timing depend on tide and sea conditions.",
+      "description": "Experience a fascinating combination of history, nature, and adventure on an excursion to the ancient Kua Ruins and the spectacular Blue Lagoon on Juani Island.\n\nBegin by exploring the remains of a historic Swahili settlement, where ancient stone structures and mosques tell the story of the island's rich cultural past.\n\nContinue by boat through peaceful mangrove channels until you reach the breathtaking Blue Lagoon, a secluded natural pool surrounded by lush tropical vegetation.\n\nSwim in its calm waters, admire the unique landscape, and observe the fascinating upside-down jellyfish that inhabit the lagoon.\n\nA memorable journey through some of the most remarkable natural and historical locations in the Mafia archipelago.",
       "steps": [
         {
-          "title": "Plan the tide window",
-          "text": "Confirm access and the order of stops with the team."
+          "title": "Departure from Utende Beach",
+          "text": "Board the boat and begin your journey toward Juani Island."
         },
         {
-          "title": "Visit the Blue Lagoon",
-          "text": "Explore the lagoon when tide and conditions allow."
+          "title": "Exploring Kua Ruins",
+          "text": "Walk among the historic stone ruins, discover ancient mosque remains, and learn about the settlement's cultural and trading history."
         },
         {
-          "title": "Discover Kua Ruins",
-          "text": "Walk among the historic remains with local guidance."
+          "title": "Mangrove Channel Boat Ride",
+          "text": "Continue through a beautiful natural channel surrounded by mangrove forests, keeping an eye out for local wildlife."
         },
         {
-          "title": "Return across the bay",
-          "text": "Travel back according to the agreed boat plan."
+          "title": "Arrival at Blue Lagoon",
+          "text": "Discover the stunning natural lagoon hidden among the mangroves."
+        },
+        {
+          "title": "Swimming and Lagoon Exploration",
+          "text": "Enjoy time in the calm water and observe the lagoon's distinctive upside-down jellyfish without touching or disturbing them."
+        },
+        {
+          "title": "Return Boat Journey",
+          "text": "Travel back through the mangrove channels and return to Utende Beach."
         }
       ],
       "planningNote": "Confirm route, tide, access, boat arrangements and any park or entry fees.",
@@ -149,27 +177,35 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
       "image": "assets/preview-v2/snorkelling-1080.webp",
       "imageSmall": "assets/preview-v2/snorkelling-640.webp",
       "alt": "Illustrative preview image for Kitutia & Mange Snorkeling with Lunch",
-      "description": "Travel by boat for snorkeling around Kitutia and Mange. Lunch includes fresh fish cooked on the spot. The order of reef stops follows sea conditions; confirm lunch arrangements with the team.",
+      "description": "Explore two of Mafia Island's most spectacular offshore snorkeling destinations on an unforgettable marine adventure to Kitutia Reef and Mange Reef.\n\nDiscover vibrant coral formations, large schools of tropical fish, and the extraordinary biodiversity of the open ocean.\n\nKitutia offers an especially impressive snorkeling experience, with opportunities to encounter abundant marine life and, occasionally, larger ocean creatures.\n\nAfter exploring the first reef, continue to the beautiful Mange sandbank, where your local guides will prepare a shaded relaxation area and a freshly cooked barbecue lunch.\n\nEnjoy the stunning white sand, turquoise waters, and a second snorkeling experience around Mange Reef before heading back to Mafia Island.",
       "steps": [
         {
-          "title": "Prepare for the day",
-          "text": "Meet your guide, check equipment and discuss the reef stops."
+          "title": "Departure from Utende Beach",
+          "text": "Meet your guides and board the boat for the journey toward Kitutia Reef."
         },
         {
-          "title": "Travel to the first reef",
-          "text": "Take the boat and listen to the snorkeling briefing."
+          "title": "Kitutia Reef Snorkeling",
+          "text": "Explore the vibrant reef, swim among schools of tropical fish, and discover the incredible marine biodiversity of this offshore location."
         },
         {
-          "title": "Explore Mange and Kitutia",
-          "text": "Snorkel suitable spots in both areas when conditions allow."
+          "title": "Boat Transfer to Mange",
+          "text": "Continue across the ocean toward Mange Reef and its beautiful sandbank."
         },
         {
-          "title": "Enjoy lunch",
-          "text": "Have a meal of fresh fish cooked on the spot."
+          "title": "Sandbank Barbecue Lunch",
+          "text": "Relax on the white sand while your guides prepare a shaded area and a freshly cooked barbecue lunch."
         },
         {
-          "title": "Return to Mafia",
-          "text": "Take the boat back to shore."
+          "title": "Mange Reef Snorkeling",
+          "text": "Enjoy a second snorkeling session, exploring the coral formations and marine life around Mange."
+        },
+        {
+          "title": "Swimming and Relaxation",
+          "text": "Spend some time enjoying the crystal-clear waters and peaceful surroundings of the sandbank."
+        },
+        {
+          "title": "Return to Utende Beach",
+          "text": "Board the boat for the return journey to Mafia Island."
         }
       ],
       "planningNote": "Confirm lunch arrangements, equipment, reef access and any park fees.",
@@ -196,23 +232,31 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
       "image": "assets/preview-v2/snorkelling-1080.webp",
       "imageSmall": "assets/preview-v2/snorkelling-640.webp",
       "alt": "Illustrative preview image for Fisherman Island Snorkeling",
-      "description": "Take a guided boat trip for snorkeling around Fisherman Island. The chosen spot and water time depend on sea conditions.",
+      "description": "Discover the authentic fishing traditions of Mafia Island while enjoying a beautiful snorkeling experience in the waters of Chole Bay.\n\nTravel by boat to a small island used by local fishermen as a temporary base during their fishing activities.\n\nLearn about their traditional way of life, observe the surroundings where fishermen rest and prepare for their work, and experience a unique part of the local maritime culture.\n\nAfter exploring the island, continue your adventure with a guided snorkeling session in the clear waters of Chole Bay, home to colorful tropical fish and fascinating marine life.\n\nA wonderful combination of local culture, island exploration, and underwater discovery.",
       "steps": [
         {
-          "title": "Meet your guide",
-          "text": "Confirm the route, equipment and sea conditions."
+          "title": "Meeting at Swahili Local Restaurant",
+          "text": "Meet your local guide and prepare for the excursion."
         },
         {
-          "title": "Cross to Fisherman Island",
-          "text": "Travel by boat with your guide."
+          "title": "Boat Departure from Utende Beach",
+          "text": "Travel by boat toward the small island used by local fishermen."
         },
         {
-          "title": "Snorkel the island waters",
-          "text": "Explore a suitable spot following the briefing and local guidance."
+          "title": "Fishermen's Island Visit",
+          "text": "Explore the island and discover how local fishermen use this location as a temporary base during their fishing trips."
         },
         {
-          "title": "Return to shore",
-          "text": "Complete the boat journey back."
+          "title": "Discover Local Fishing Traditions",
+          "text": "Learn about the fishermen's daily activities, their boats, and their connection to the surrounding ocean."
+        },
+        {
+          "title": "Chole Bay Snorkeling",
+          "text": "Continue by boat to a suitable snorkeling location and explore the underwater world of Chole Bay."
+        },
+        {
+          "title": "Return to Utende Beach",
+          "text": "Enjoy the boat ride back to the original departure point."
         }
       ],
       "planningNote": "Confirm the route, equipment, sea conditions and any park fees.",
@@ -239,27 +283,31 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
       "image": "assets/preview-v2/sandbank-1080.webp",
       "imageSmall": "assets/preview-v2/sandbank-640.webp",
       "alt": "Illustrative preview image for Marimbani Sandbank & Picnic",
-      "description": "Visit Marimbani Sandbank for time by the water and a picnic. The meal includes fresh fish cooked on the spot. Departure and access depend on the tide; confirm picnic arrangements with the team.",
+      "description": "Escape to the peaceful beauty of Marimbani Sandbank, a stunning stretch of white sand surrounded by the turquoise waters of Chole Bay.\n\nAfter a short boat ride from Utende Beach, arrive at this beautiful natural sandbank, which emerges from the sea according to the tides.\n\nRelax beneath a shaded area while your local guides prepare a delicious meal using fresh ingredients sourced from local fishermen.\n\nDepending on the day's catch, lunch may feature freshly grilled fish, calamari, and traditional accompaniments.\n\nSpend your time swimming in crystal-clear waters, relaxing on the soft white sand, and enjoying the spectacular surroundings.\n\nA perfect experience for anyone seeking relaxation, natural beauty, and authentic island flavors.",
       "steps": [
         {
-          "title": "Time the visit",
-          "text": "Agree the low-tide departure window."
+          "title": "Departure from Swahili Local Restaurant",
+          "text": "Meet your guides and board the boat for a short journey to Marimbani Sandbank."
         },
         {
-          "title": "Cross the bay",
-          "text": "Travel towards the exposed sand by boat."
+          "title": "Arrival at Marimbani Sandbank",
+          "text": "Discover the beautiful stretch of white sand surrounded by clear turquoise water."
         },
         {
-          "title": "Enjoy the sandbank",
-          "text": "Walk, rest or swim as conditions allow."
+          "title": "Beach Setup and Relaxation",
+          "text": "Your guides prepare a shaded area where you can relax and enjoy the peaceful surroundings."
         },
         {
-          "title": "Share a fresh fish meal",
-          "text": "Enjoy fresh fish cooked on the spot as part of the picnic."
+          "title": "Fresh Seafood Barbecue",
+          "text": "Enjoy a freshly prepared meal featuring the day's available catch and traditional accompaniments."
         },
         {
-          "title": "Return with the tide",
-          "text": "Leave within the agreed access window."
+          "title": "Swimming and Free Time",
+          "text": "Swim in the surrounding waters, walk along the sandbank, take photographs, or simply relax."
+        },
+        {
+          "title": "Return to Utende Beach",
+          "text": "Board the boat and travel back to your departure point."
         }
       ],
       "planningNote": "Tide and weather dependent. Confirm picnic arrangements and transport.",
@@ -286,23 +334,35 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
       "image": "assets/preview-v2/whale-shark-1080.webp",
       "imageSmall": "assets/preview-v2/whale-shark-640.webp",
       "alt": "Illustrative preview image for Whale Shark Snorkeling",
-      "description": "Head out to look for whale sharks and, when conditions and guidance allow, snorkel nearby. Wildlife sightings are not guaranteed.",
+      "description": "Experience one of Mafia Island's most extraordinary marine adventures: the opportunity to swim alongside magnificent whale sharks in their natural habitat.\n\nBegin your journey with a transfer to the departure point, where your local guides and boat captain will take you out into the ocean in search of these gentle giants.\n\nWhen a whale shark is spotted and conditions allow, enter the water with your snorkeling equipment for the unforgettable experience of observing the world's largest fish swimming gracefully through the sea.\n\nYour guides will help ensure a respectful encounter, maintaining a safe distance and avoiding any disturbance to the animals.\n\nWhale shark encounters depend on the season and natural conditions, and sightings cannot be guaranteed.",
       "steps": [
         {
-          "title": "Meet and prepare",
-          "text": "Agree conditions, equipment and wildlife etiquette."
+          "title": "Meeting at Swahili Local Restaurant",
+          "text": "Meet your guides at the designated departure point and prepare for the adventure."
         },
         {
-          "title": "Search the water",
-          "text": "Travel with the crew looking for sharks."
+          "title": "Transfer by Car",
+          "text": "Travel to the boat departure location used for whale shark excursions."
         },
         {
-          "title": "Observe the encounter",
-          "text": "Watch from the boat; enter only as advised."
+          "title": "Boat Departure",
+          "text": "Board the boat and head into the ocean with your experienced local guides and captain."
         },
         {
-          "title": "Return to shore",
-          "text": "Complete the boat journey back."
+          "title": "Searching for Whale Sharks",
+          "text": "Explore the waters where whale sharks are known to gather, looking for signs of their presence."
+        },
+        {
+          "title": "Whale Shark Snorkeling",
+          "text": "If whale sharks are spotted and conditions permit, enter the water with your snorkeling equipment to observe them from a respectful distance."
+        },
+        {
+          "title": "Return to the Boat Landing Point",
+          "text": "Head back to the departure location after the marine excursion."
+        },
+        {
+          "title": "Transfer Back",
+          "text": "Return by car to the original meeting point."
         }
       ],
       "planningNote": "Seasonal. Sightings and water entry are not guaranteed.",
