@@ -389,23 +389,27 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
       "image": "assets/preview-v2/turtles-1080.webp",
       "imageSmall": "assets/preview-v2/turtles-640.webp",
       "alt": "Illustrative preview image for Turtle Hatching",
-      "description": "When nest activity permits, visit Juani for the chance to observe hatchling sea turtles making their way towards the ocean. A boat crossing and walk lead to the nesting beach. Conservation guidance and the turtles’ natural behaviour determine the visit.",
+      "description": "Witness one of nature's most unforgettable moments on Juani Island. Travel by boat to the turtle nesting beaches and discover the incredible journey of baby sea turtles making their way toward the Indian Ocean. Accompanied by local guides, learn about turtle conservation and experience this extraordinary seasonal wildlife event.\n\nDeparture depends on tides, hatching season and conservation arrangements. Sightings are not guaranteed.",
       "steps": [
         {
-          "title": "Check nest activity",
-          "text": "Ask monitors whether a visit is possible."
+          "title": "Meet at the Beach",
+          "text": "Meet your guide at the designated departure point."
         },
         {
-          "title": "Cross to Juani",
-          "text": "Travel by the arranged boat."
+          "title": "Boat Trip to Juani Island",
+          "text": "Travel by boat toward the turtle nesting area."
         },
         {
-          "title": "Reach the nesting beach",
-          "text": "Follow the agreed route with your guide."
+          "title": "Explore the Nesting Beach",
+          "text": "Discover the nesting sites and learn about turtle conservation."
         },
         {
-          "title": "Observe quietly",
-          "text": "Keep to the position specified by conservation staff."
+          "title": "Witness the Hatching",
+          "text": "When conditions allow, observe baby turtles making their first journey toward the ocean under the supervision of authorized conservation personnel."
+        },
+        {
+          "title": "Return to Shore",
+          "text": "Return by boat after the experience."
         }
       ],
       "planningNote": "Seasonal; hatching is not guaranteed. No handling, interference or flash.",
@@ -432,23 +436,27 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
       "image": "assets/preview-v2/forest-1080.webp",
       "imageSmall": "assets/preview-v2/forest-640.webp",
       "alt": "Illustrative preview image for Bird Watching",
-      "description": "Walk through coastal or inland habitats and look for Mafia’s birdlife. Mangrove edges, farmland and coastal thickets offer different opportunities as seasons change. Move slowly, listen to calls and explore the landscape with a local guide without disturbing sensitive habitats.",
+      "description": "Discover the beautiful birdlife of Mafia Island with a guided birdwatching adventure. Explore peaceful coastal habitats and mangrove areas while observing different bird species in their natural environment. Early morning is an ideal time to discover the island's wildlife.\n\nDuration: Approximately 2 hours. Recommended time: 6:00–8:00 AM. An evening boat alternative may be arranged.",
       "steps": [
         {
-          "title": "Choose the habitat",
-          "text": "Plan a route for current conditions."
+          "title": "Early Morning Meeting",
+          "text": "Meet your guide at the beach around 6:00 AM."
         },
         {
-          "title": "Walk slowly",
-          "text": "Follow suitable coastal or inland paths."
+          "title": "Explore Coastal Habitats",
+          "text": "Walk through natural areas near the beach looking for birds."
         },
         {
-          "title": "Stop and observe",
-          "text": "Listen for calls and watch from a distance."
+          "title": "Discover the Mangroves",
+          "text": "Visit mangrove habitats and observe different species."
         },
         {
-          "title": "Review your discoveries",
-          "text": "Discuss the birds encountered before returning."
+          "title": "Birdwatching & Observation",
+          "text": "Stop at suitable viewpoints while your guide explains local birdlife."
+        },
+        {
+          "title": "Complete the Tour",
+          "text": "Finish the morning experience around 8:00 AM."
         }
       ],
       "planningNote": "Species and sightings vary. Bring binoculars if available; avoid disturbance.",
@@ -521,23 +529,35 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
       "image": "assets/preview-v2/village-1080.webp",
       "imageSmall": "assets/preview-v2/village-640.webp",
       "alt": "Illustrative preview image for Utende Village Tour",
-      "description": "Take a locally guided walk through Utende and learn about the village at a respectful pace.",
+      "description": "Discover authentic island life on a guided walk through Utende Village. Explore local markets, traditional crafts, fishing culture and farming activities while learning about the everyday lives and traditions of Mafia Island's communities.\n\nDuration: Approximately 1.5–2 hours. Transport: Walking.",
       "steps": [
         {
-          "title": "Meet your local guide",
-          "text": "Agree the walking route and meeting point in Utende."
+          "title": "Explore the Village Centre",
+          "text": "Discover small local shops, vegetable stalls and daily village activities."
         },
         {
-          "title": "Walk through the village",
-          "text": "Explore Utende at a respectful pace with your guide."
+          "title": "Discover Local Education",
+          "text": "Learn about the local kindergarten and primary school system. Any school visit requires permission."
         },
         {
-          "title": "Learn about local life",
-          "text": "Pause at places along the route and hear about the community."
+          "title": "Traditional Palm Wine Making",
+          "text": "See how local producers prepare traditional palm wine, known as Mnazi."
         },
         {
-          "title": "Finish the village walk",
-          "text": "Return to the agreed meeting point."
+          "title": "Meet the Fishing Community",
+          "text": "Discover where fishermen gather, socialize and play traditional games."
+        },
+        {
+          "title": "Explore Local Rice Farming",
+          "text": "Learn how rice is cultivated and produced on Mafia Island."
+        },
+        {
+          "title": "Traditional Drum Making",
+          "text": "Discover how local craftsmen make traditional drums using natural materials."
+        },
+        {
+          "title": "Experience Community Life",
+          "text": "Explore traditional gathering places and learn about village customs."
         }
       ],
       "planningNote": "Confirm meeting point, route and timing with the team.",
@@ -563,27 +583,31 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
       "image": "assets/preview-v2/market-1080.webp",
       "imageSmall": "assets/preview-v2/market-640.webp",
       "alt": "Illustrative preview image for Kilindoni (Fish and Fruit Market) & Sunset",
-      "description": "Explore the fish and fruit market in Kilindoni, then end the outing at sunset. Market activity and sunset viewing arrangements vary by day.",
+      "description": "Explore Kilindoni, the vibrant main town of Mafia Island. Discover its colorful markets, local spices, fishing traditions and everyday trading activities. Meet local vendors and experience the authentic atmosphere of island life.\n\nThis tour does not include a sunset cruise.",
       "steps": [
         {
-          "title": "Head to Kilindoni",
-          "text": "Meet your guide and agree the timing for the visit."
+          "title": "Travel to Kilindoni",
+          "text": "Reach Mafia Island's main town with transport arranged according to the group."
         },
         {
-          "title": "Visit the fish market",
-          "text": "Walk through the market and observe its activity."
+          "title": "Explore the Central Market",
+          "text": "Discover stalls selling vegetables, tropical fruit and everyday products."
         },
         {
-          "title": "Visit the fruit market",
-          "text": "Continue to the fruit market."
+          "title": "Discover Local Spices",
+          "text": "Explore traditional spices and ingredients used in local cooking."
         },
         {
-          "title": "Enjoy the sunset",
-          "text": "Watch the sunset from the agreed spot."
+          "title": "Visit the Fish Market",
+          "text": "Experience the local seafood trade and discover the fishermen's daily catch."
         },
         {
-          "title": "Return to your meeting point",
-          "text": "Finish the outing with your guide."
+          "title": "Traditional Dried Fish Production",
+          "text": "Learn how local women prepare, dry and sell small fish such as sardines."
+        },
+        {
+          "title": "Explore the Harbor Area",
+          "text": "Discover local boats, ferries and connections to mainland Tanzania."
         }
       ],
       "planningNote": "Confirm market timing, transport and sunset location.",
@@ -608,23 +632,31 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
       "image": "assets/preview-v2/sandbank-1080.webp",
       "imageSmall": "assets/preview-v2/sandbank-640.webp",
       "alt": "Illustrative preview image for Mama Africa Sunset Cruise (in Dhow)",
-      "description": "Enjoy an evening cruise in a dhow and watch the sunset over the water. Departure and route depend on weather and sea conditions.",
+      "description": "Experience the magic of a Mafia Island sunset aboard a traditional wooden dhow. Sail across the peaceful Indian Ocean, enjoy beautiful coastal scenery and relax with tropical refreshments as the sun disappears beyond the horizon. Traditional drumming may also be arranged for an authentic island atmosphere.\n\nStandard refreshments, fruit and snacks are included. Alcoholic drinks cost extra. The route depends on weather and wind conditions; drumming is subject to availability.",
       "steps": [
         {
-          "title": "Meet the dhow crew",
-          "text": "Confirm departure time and sea conditions."
+          "title": "Meet at the Beach",
+          "text": "Meet your crew and board the traditional wooden dhow."
         },
         {
-          "title": "Board the dhow",
-          "text": "Set out for an evening cruise on the water."
+          "title": "Set Sail",
+          "text": "Experience traditional sailing powered by the wind rather than the engine."
         },
         {
-          "title": "Watch the sunset",
-          "text": "Enjoy the sunset from the dhow."
+          "title": "Cruise Toward Sunset Rock",
+          "text": "Follow the coastline toward a scenic rocky viewpoint known for its seabirds."
         },
         {
-          "title": "Return to shore",
-          "text": "Complete the cruise with the crew."
+          "title": "Enjoy Refreshments",
+          "text": "Relax with fruit, coconut and snacks while enjoying the atmosphere onboard."
+        },
+        {
+          "title": "Watch the Sunset",
+          "text": "Admire the sunset over the Indian Ocean."
+        },
+        {
+          "title": "Return to Shore",
+          "text": "Sail back to the departure beach."
         }
       ],
       "planningNote": "Confirm departure time, dhow arrangements and sea conditions.",
@@ -650,23 +682,31 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
       "image": "assets/preview-v2/fishing-1080.webp",
       "imageSmall": "assets/preview-v2/fishing-640.webp",
       "alt": "Illustrative preview image for Fishing Game",
-      "description": "Head beyond the shoreline for a proposed offshore fishing outing. Mafia’s deeper waters attract anglers, but catches depend on real conditions. Discuss the fishing method, equipment and responsible handling practices with a specialist provider before choosing the right trip.",
+      "description": "Enjoy an exciting fishing adventure in the waters surrounding Mafia Island. Join experienced local fishermen for a half-day or full-day excursion and discover the thrill of fishing in the Indian Ocean. Depending on conditions, potential catches include Giant Trevally, Dogtooth Tuna, Yellowfin Tuna and Wahoo.\n\nFishing equipment and fresh fruit are included. The crew follows a catch-and-release approach. Fishing success is not guaranteed.",
       "steps": [
         {
-          "title": "Plan with the crew",
-          "text": "Confirm method, route and handling practices."
+          "title": "Meet at the Beach",
+          "text": "Meet your fishing guide and crew."
         },
         {
-          "title": "Head offshore",
-          "text": "Reach fishing grounds chosen for the day."
+          "title": "Prepare Your Equipment",
+          "text": "Use the provided fishing equipment or bring your own gear."
         },
         {
-          "title": "Try the technique",
-          "text": "Use the agreed equipment with guidance."
+          "title": "Travel to the Fishing Grounds",
+          "text": "Head toward suitable offshore fishing areas."
         },
         {
-          "title": "Return to land",
-          "text": "Complete the offshore journey."
+          "title": "Start Fishing",
+          "text": "Try fishing techniques such as trolling with guidance from the crew."
+        },
+        {
+          "title": "Enjoy Refreshments",
+          "text": "Relax with fresh fruit onboard."
+        },
+        {
+          "title": "Return to the Beach",
+          "text": "Head back after your chosen fishing experience."
         }
       ],
       "planningNote": "Specialist provider and suitable sea conditions required. No guaranteed catch.",
