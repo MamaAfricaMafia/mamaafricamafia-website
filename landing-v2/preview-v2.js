@@ -3,6 +3,8 @@
   const config = window.MAMA_AFRICA_PREVIEW_V2;
   const tourList = document.querySelector("#tour-list");
   if (!config || !tourList) return;
+  const i18n = window.MAMA_AFRICA_I18N;
+  const tr = i18n?.tr || ((text) => text);
 
   const escape = (value) => String(value).replace(/[&<>"']/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[char]);
   const whatsappUrl = (message) => /^\d{8,15}$/.test(config.whatsappNumber)
@@ -18,7 +20,7 @@
       link.target = "_blank";
       link.rel = "noopener noreferrer";
     } else {
-      link.textContent = "WhatsApp contact to be confirmed";
+      link.textContent = tr("WhatsApp contact to be confirmed.");
       link.setAttribute("aria-disabled", "true");
     }
   });
@@ -28,28 +30,28 @@
     const priceLabel = Number.isFinite(tour.priceAmount)
       ? `${tour.priceCurrency === "USD" ? "$" : `${tour.priceCurrency} `}${new Intl.NumberFormat("en-US", { maximumFractionDigits: 2 }).format(tour.priceAmount)}`
       : tour.price;
-    const bookingMessage = `Hello Mama Africa! I'm interested in booking the ${tour.name} experience. Could you please share availability, the final itinerary and price?`;
+    const bookingMessage = i18n.booking(tour.name);
     const url = whatsappUrl(bookingMessage);
-    const book = url ? `<a class="button button-teal tour-book" href="${escape(url)}" target="_blank" rel="noopener noreferrer" aria-label="Book ${escape(tour.name)} on WhatsApp">Book Now ${arrow}</a>` : '<p class="missing-contact">WhatsApp contact to be confirmed.</p>';
+    const book = url ? `<a class="button button-teal tour-book" href="${escape(url)}" target="_blank" rel="noopener noreferrer" aria-label="${escape(i18n.bookLabel(tour.name))}">${escape(tr("Book Now"))} ${arrow}</a>` : `<p class="missing-contact">${escape(tr("WhatsApp contact to be confirmed."))}</p>`;
     return `<article class="tour-card" id="tour-${id}" aria-labelledby="title-${id}">
       <div class="tour-cover">
         <img src="${escape(tour.image)}" srcset="${escape(tour.imageSmall)} ${tour.imageSmallWidth || 640}w, ${escape(tour.image)} ${tour.imageWidth || 1080}w" sizes="(max-width:760px) calc(100vw - 40px), calc((100vw - 140px) / 3)" alt="${escape(tour.alt)}" width="1448" height="1086" loading="lazy">
         <span class="tour-price">${escape(priceLabel)}</span>
-        ${tour.seasonal ? '<span class="tour-season">Seasonal</span>' : ''}
-        <div class="tour-cover-copy"><h3 id="title-${id}">${escape(tour.name)}</h3><p>${escape(tour.subtitle)}</p><span class="tour-cover-action">Explore this tour <span class="tour-plus">${plus}</span></span></div>
-        <button class="tour-toggle" type="button" data-card-toggle aria-expanded="false" aria-controls="content-${id}" aria-label="Open ${escape(tour.name)} tour details"></button>
+        ${tour.seasonal ? `<span class="tour-season">${escape(tr("Seasonal"))}</span>` : ''}
+        <div class="tour-cover-copy"><h3 id="title-${id}">${escape(tour.name)}</h3><p>${escape(tour.subtitle)}</p><span class="tour-cover-action">${escape(tr("Explore this tour"))} <span class="tour-plus">${plus}</span></span></div>
+        <button class="tour-toggle" type="button" data-card-toggle aria-expanded="false" aria-controls="content-${id}" aria-label="${escape(i18n.cardLabel(false, tour.name))}"></button>
       </div>
       <div class="tour-content" id="content-${id}" hidden>
-        <button type="button" class="panel-toggle" id="about-button-${id}" data-panel-toggle="about" aria-expanded="true" aria-controls="about-${id}">About this tour ${chevron}</button>
+        <button type="button" class="panel-toggle" id="about-button-${id}" data-panel-toggle="about" aria-expanded="true" aria-controls="about-${id}">${escape(tr("About this tour"))} ${chevron}</button>
         <div class="tour-panel" id="about-${id}" role="region" aria-labelledby="about-button-${id}"><p>${escape(tour.description)}</p></div>
-        <button type="button" class="panel-toggle" id="steps-button-${id}" data-panel-toggle="steps" aria-expanded="false" aria-controls="steps-${id}">Your day, step by step ${chevron}</button>
+        <button type="button" class="panel-toggle" id="steps-button-${id}" data-panel-toggle="steps" aria-expanded="false" aria-controls="steps-${id}">${escape(tr("Your day, step by step"))} ${chevron}</button>
         <div class="tour-panel steps-panel" id="steps-${id}" role="region" aria-labelledby="steps-button-${id}" hidden>
-          <p class="itinerary-label">A suggested day on the water</p>
+          <p class="itinerary-label">${escape(tr("A suggested day on the water"))}</p>
           <ol class="tour-steps">${tour.steps.map((step) => `<li><h4>${escape(step.title)}</h4><p>${escape(step.text)}</p></li>`).join("")}</ol>
         </div>
         <p class="planning-note">${escape(tour.planningNote)}</p>
         ${book}
-        <span class="booking-hint">Continue the conversation on WhatsApp</span>
+        <span class="booking-hint">${escape(tr("Continue the conversation on WhatsApp"))}</span>
       </div>
     </article>`;
   }).join("");
@@ -112,15 +114,15 @@
     });
     if (pagination) pagination.hidden = !mobileQuery.matches || total === 0;
     if (emptyState) emptyState.hidden = total !== 0;
-    if (pageLabel) pageLabel.textContent = `Page ${total ? currentPage : 0} of ${total ? pageCount : 0}`;
+    if (pageLabel) pageLabel.textContent = i18n.page(total ? currentPage : 0, total ? pageCount : 0);
     pageButtons.forEach((button) => {
       const isPrevious = Number(button.dataset.pageStep) < 0;
       button.disabled = total === 0 || (isPrevious ? currentPage === 1 : currentPage === pageCount);
-      button.setAttribute("aria-label", isPrevious ? "Previous page of experiences" : "Next page of experiences");
+      button.setAttribute("aria-label", isPrevious ? i18n.previousPage : i18n.nextPage);
     });
     if (tourCount) tourCount.textContent = total === 0
-      ? "No experiences match this filter."
-      : mobileQuery.matches ? `Showing ${start + 1}\u2013${end} of ${total} experiences` : `${total} ${total === 1 ? "experience" : "experiences"}`;
+      ? i18n.noMatch
+      : mobileQuery.matches ? i18n.showing(start + 1, end, total) : i18n.count(total);
     if (focusedCard && focusedCard.hidden) {
       const focusTarget = visibleEntries[0]?.card.querySelector("[data-card-toggle]")
         || filterControls?.querySelector('[aria-pressed="true"]') || sortControl;
@@ -182,7 +184,7 @@
     const button = card.querySelector("[data-card-toggle]");
     const content = document.getElementById(button.getAttribute("aria-controls"));
     button.setAttribute("aria-expanded", String(expand));
-    button.setAttribute("aria-label", `${expand ? "Close" : "Open"} ${card.querySelector("h3").textContent} tour details`);
+    button.setAttribute("aria-label", i18n.cardLabel(expand, card.querySelector("h3").textContent));
     content.hidden = !expand;
     card.classList.toggle("is-open", expand);
     if (expand) setPanel(card, "about", true);
