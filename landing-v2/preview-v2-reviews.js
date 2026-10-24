@@ -7,6 +7,7 @@
   if (!list || !previous || !next || !position) return;
   const cards = [...list.querySelectorAll(".review-card")];
   if (!cards.length) return;
+  const i18n = window.MAMA_AFRICA_I18N;
   const mobile = window.matchMedia("(max-width: 760px)");
   const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
   let frame = 0;
@@ -22,7 +23,7 @@
     frame = 0;
     const { visible, step, maximum } = metrics();
     const first = Math.min(Math.max(0, cards.length - visible), Math.max(0, Math.round(list.scrollLeft / step)));
-    position.textContent = `${first + 1}–${Math.min(first + visible, cards.length)} of ${cards.length} tour review summaries`;
+    position.textContent = i18n.reviews(first + 1, Math.min(first + visible, cards.length), cards.length);
     previous.disabled = list.scrollLeft <= 1;
     next.disabled = list.scrollLeft >= maximum - 1;
   }
