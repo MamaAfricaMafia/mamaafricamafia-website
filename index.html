@@ -21,10 +21,6 @@
     .brand-name{font-family:'Playfair Display',Georgia,serif;font-size:22px;line-height:.92;letter-spacing:-.055em}
     .brand-name span{display:block}
     .top-note{font-size:10px;letter-spacing:.24em;font-weight:700;text-transform:uppercase;color:#fff;opacity:.9}
-    .top-actions{display:flex;align-items:center;gap:22px}
-    .language-picker select{min-width:64px;min-height:44px;padding:8px 10px;border:1px solid #ffffff80;border-radius:8px;background:#183c35dd;color:#fff;font:700 12px 'DM Sans',Arial,sans-serif;cursor:pointer}
-    .language-picker select:focus-visible{outline:3px solid #f2c885;outline-offset:3px}
-    .visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
     .intro{position:absolute;z-index:3;inset:86px 0 54px;padding:20px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
     .eyebrow{color:#f2c885;text-transform:uppercase;letter-spacing:.28em;font-size:10px;font-weight:700;text-shadow:0 1px 12px #102a26}
     h1{max-width:900px;margin:19px auto 16px;font-family:'Playfair Display',Georgia,serif;font-weight:400;letter-spacing:-.055em;line-height:1.1;font-size:clamp(42px,6.3vw,84px);text-shadow:0 2px 24px #102a2680}
@@ -61,7 +57,7 @@
       </svg>
       <span class="brand-name"><span>Mama Africa</span><span>Mafia</span></span>
     </a>
-    <div class="top-actions"><div class="top-note">Utende · Mafia Island · Tanzania</div><label class="language-picker"><span class="visually-hidden">Language</span><select id="site-language" aria-label="Language"><option value="en">EN</option><option value="it">IT</option><option value="fr">FR</option><option value="de">DE</option></select></label></div>
+    <div class="top-note">Utende · Mafia Island · Tanzania</div>
   </header>
   <main id="top">
     <section class="intro" aria-labelledby="main-title">
@@ -80,74 +76,11 @@
     </section>
   </main>
   <footer class="footer">
-    <strong>Mama Africa Mafia · Utende · TIN 133-999-949</strong>
+    <strong>Mama Africa Mafia · Utende</strong>
     <span class="credits">Photos: <a href="https://commons.wikimedia.org/wiki/File:Mafia_Island,_Tanzania.jpg" target="_blank" rel="noopener noreferrer">Gill Penney</a> and Nina R (<a href="https://commons.wikimedia.org/wiki/File:Mafia_Island_(51554991378).jpg" target="_blank" rel="noopener noreferrer">1</a>, <a href="https://commons.wikimedia.org/wiki/File:Mafia_Island,_Tanzania_(51555487539).jpg" target="_blank" rel="noopener noreferrer">2</a>), <a href="https://creativecommons.org/licenses/by/2.0/" target="_blank" rel="noopener noreferrer">CC BY 2.0</a>. Images cropped to fit.</span>
   </footer>
   </div>
   <script>
-    (() => {
-      const rows = [
-        ["Mama Africa Mafia — Coming soon", "Mama Africa Mafia — Prossimamente", "Mama Africa Mafia — Bientôt en ligne", "Mama Africa Mafia — Demnächst"],
-        ["Language", "Lingua", "Langue", "Sprache"],
-        ["A new chapter is coming", "Sta arrivando un nuovo capitolo", "Un nouveau chapitre arrive", "Ein neues Kapitel beginnt"],
-        ["Feel the island.", "Vivi l'isola.", "Ressentez l'île.", "Spüre die Insel."],
-        ["Meet its people.", "Incontra chi la vive.", "Rencontrez ses habitants.", "Lerne ihre Bewohner kennen."],
-        ["Our new website is on its way. For restaurant visits, island adventures and moments to unwind, reach us directly.", "Il nostro nuovo sito sta arrivando. Per una visita al ristorante, un'avventura sull'isola o un momento di relax, contattaci direttamente.", "Notre nouveau site arrive. Pour un repas au restaurant, une aventure sur l'île ou un moment de détente, contactez-nous directement.", "Unsere neue Website ist bald da. Für Restaurantbesuche, Inselabenteuer und erholsame Momente kannst du uns direkt kontaktieren."],
-        ["Chat with us on WhatsApp", "Scrivici su WhatsApp", "Écrivez-nous sur WhatsApp", "Schreib uns auf WhatsApp"],
-        ["Photos:", "Foto:", "Photos :", "Fotos:"],
-        ["and Nina R (", "e Nina R (", "et Nina R (", "und Nina R ("],
-        [". Images cropped to fit.", ". Immagini ritagliate per adattarsi al layout.", ". Images recadrées pour s'adapter à la mise en page.", ". Bilder für das Layout zugeschnitten."],
-        ["Mama Africa Mafia home", "Pagina iniziale di Mama Africa Mafia", "Accueil Mama Africa Mafia", "Startseite Mama Africa Mafia"],
-        ["Mafia Island photo gallery", "Galleria fotografica dell'isola di Mafia", "Galerie photo de l'île de Mafia", "Fotogalerie von Mafia Island"],
-        ["Palm-lined beach on Mafia Island", "Spiaggia con palme sull'isola di Mafia", "Plage bordée de palmiers sur l'île de Mafia", "Palmengesäumter Strand auf Mafia Island"],
-        ["Coast of Mafia Island at Chole Shamba", "Costa dell'isola di Mafia a Chole Shamba", "Côte de l'île de Mafia à Chole Shamba", "Küste von Mafia Island bei Chole Shamba"],
-        ["Landscape on Mafia Island", "Paesaggio dell'isola di Mafia", "Paysage de l'île de Mafia", "Landschaft auf Mafia Island"]
-      ];
-      const params = new URLSearchParams(location.search);
-      let saved = "";
-      try { saved = localStorage.getItem("mama-africa-language") || ""; } catch (_) {}
-      const requested = params.get("lang");
-      const languages = { en: 0, it: 1, fr: 2, de: 3 };
-      const lang = Object.hasOwn(languages, requested) ? requested : Object.hasOwn(languages, saved) ? saved : "en";
-      const translations = new Map(rows.map((row) => [row[0], row[languages[lang]]]));
-      const picker = document.querySelector("#site-language");
-      document.documentElement.lang = lang;
-      picker.value = lang;
-      picker.setAttribute("aria-label", translations.get("Language"));
-      picker.addEventListener("change", () => {
-        try { localStorage.setItem("mama-africa-language", picker.value); } catch (_) {}
-        const next = new URL(location.href);
-        if (picker.value === "en") next.searchParams.delete("lang");
-        else next.searchParams.set("lang", picker.value);
-        location.assign(next.href);
-      });
-      if (lang === "en") return;
-      const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
-      let node;
-      while ((node = walker.nextNode())) {
-        if (node.parentElement?.closest("script, style")) continue;
-        const source = node.nodeValue.trim();
-        if (translations.has(source)) node.nodeValue = node.nodeValue.replace(source, translations.get(source));
-      }
-      document.title = translations.get(document.title) || document.title;
-      document.querySelectorAll("[aria-label], [alt]").forEach((element) => {
-        for (const attribute of ["aria-label", "alt"]) {
-          const source = element.getAttribute(attribute);
-          if (translations.has(source)) element.setAttribute(attribute, translations.get(source));
-        }
-      });
-      document.querySelector('meta[name="description"]').content = {
-        it: "Mama Africa Mafia arriva presto online. Scopri l'accoglienza dell'isola di Mafia e contattaci direttamente su WhatsApp.",
-        fr: "Mama Africa Mafia sera bientôt en ligne. Découvrez l'accueil de l'île de Mafia et contactez-nous directement sur WhatsApp.",
-        de: "Mama Africa Mafia ist bald online. Entdecke die Gastfreundschaft von Mafia Island und kontaktiere uns direkt per WhatsApp."
-      }[lang];
-      const messages = {
-        it: "Ciao Mama Africa Mafia, vorrei avere maggiori informazioni.",
-        fr: "Bonjour Mama Africa Mafia, j'aimerais en savoir plus.",
-        de: "Hallo Mama Africa Mafia, ich möchte gern mehr erfahren."
-      };
-      document.querySelector(".cta").href = "https://wa.me/255692844498?text=" + encodeURIComponent(messages[lang]);
-    })();
     const slides = [...document.querySelectorAll('.slide')];
     let current = 0;
     let timer;
