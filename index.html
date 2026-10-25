@@ -1,100 +1,200 @@
 <!doctype html>
-<html lang="en"><head>
+<html lang="en">
+<head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f7f4ed">
-  <meta name="description" content="Mama Africa Mafia is coming soon. Discover a warmer welcome on Mafia Island and contact us directly on WhatsApp.">
-  <title>Mama Africa Mafia — Coming soon</title>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500&display=swap');
-    :root{--paper:#f7f4ed;--ink:#183c35;--gold:#c6914a}
-    *{box-sizing:border-box}
-    html,body{height:100%;overflow:hidden}
-    body{margin:0;background:#183c35;color:#fff;font-family:'DM Sans',Arial,sans-serif}
-    a{color:inherit}
-    .page{position:relative;height:100vh;height:100dvh;min-height:0;overflow:hidden;isolation:isolate}
-    .topbar{position:absolute;z-index:4;top:0;left:0;right:0;height:86px;display:flex;align-items:center;justify-content:space-between;padding:0 clamp(22px,5vw,80px);border-bottom:1px solid #ffffff38}
-    .brand{display:flex;align-items:center;gap:12px;text-decoration:none}
-    .brand svg{width:43px;height:43px;flex:none}
-    .brand svg path{stroke:#fff}
-    .brand svg path:nth-child(-n+2){stroke:#f2c885}
-    .brand-name{font-family:'Playfair Display',Georgia,serif;font-size:22px;line-height:.92;letter-spacing:-.055em}
-    .brand-name span{display:block}
-    .top-note{font-size:10px;letter-spacing:.24em;font-weight:700;text-transform:uppercase;color:#fff;opacity:.9}
-    .intro{position:absolute;z-index:3;inset:86px 0 54px;padding:20px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
-    .eyebrow{color:#f2c885;text-transform:uppercase;letter-spacing:.28em;font-size:10px;font-weight:700;text-shadow:0 1px 12px #102a26}
-    h1{max-width:900px;margin:19px auto 16px;font-family:'Playfair Display',Georgia,serif;font-weight:400;letter-spacing:-.055em;line-height:1.1;font-size:clamp(42px,6.3vw,84px);text-shadow:0 2px 24px #102a2680}
-    .intro p{max-width:540px;margin:0;color:#fff;font-size:15px;line-height:1.75;text-shadow:0 1px 15px #102a26}
-    .cta{display:inline-flex;align-items:center;gap:12px;margin-top:28px;background:var(--paper);color:var(--ink);text-decoration:none;padding:15px 22px;font-size:12px;font-weight:700;letter-spacing:.075em;text-transform:uppercase;transition:background .2s,transform .2s;box-shadow:0 9px 30px #09292455}
-    .cta:hover,.cta:focus-visible{background:#fff;transform:translateY(-2px)}
-    .cta svg{width:19px;height:19px;fill:currentColor}
-    .gallery{position:absolute;inset:0;z-index:0;overflow:hidden;background:#406d6b}
-    .slide{position:absolute;inset:0;opacity:0;transition:opacity 1.2s ease}
-    .slide.is-active{opacity:1;z-index:1}
-    .slide img{width:100%;height:100%;display:block;object-fit:cover;object-position:center 48%}
-    .slide:first-child img{object-position:center 58%}
-    .slide:nth-child(2) img{object-position:center 48%}
-    .slide:nth-child(3) img{object-position:center 52%}
-    .gallery:after{content:"";position:absolute;z-index:2;inset:0;pointer-events:none;background:linear-gradient(90deg,#082f32a1,#102c3680 55%,#092d2d9e),linear-gradient(180deg,#06242470,transparent 22%,transparent 72%,#0624249e)}
-    .footer{position:absolute;z-index:4;bottom:0;left:0;right:0;padding:13px clamp(22px,5vw,80px) 18px;display:flex;justify-content:space-between;align-items:end;gap:16px;flex-wrap:wrap;font-size:10px;color:#ffffffd9;text-shadow:0 1px 9px #102a26}
-    .footer strong{color:#fff;font-weight:700}
-    .credits{max-width:720px;text-align:right;line-height:1.5}
-    .credits a{text-decoration:underline;text-underline-offset:3px}
-    @media(max-width:650px){.topbar{height:72px}.brand svg{width:37px;height:37px}.brand-name{font-size:19px}.top-note{display:none}.intro{inset:72px 0 74px;padding:16px 22px}.intro p{font-size:14px}.cta{font-size:11px;padding:14px 16px}.slide img{object-position:58% center}.footer{padding:10px 20px 15px;font-size:9px;gap:5px}.credits{text-align:left}}
-    @media(max-height:650px){.topbar{height:66px}.intro{inset:66px 0 54px}.eyebrow{font-size:9px}h1{font-size:clamp(34px,6vw,62px);margin:10px auto}.intro p{font-size:13px;line-height:1.5}.cta{margin-top:16px;padding:11px 15px}.footer{font-size:9px;padding-bottom:10px}}
-    @media(max-height:520px){.footer{display:none}.intro{inset:60px 0 0}h1{font-size:clamp(30px,5vw,50px)}}
-    @media(prefers-reduced-motion:reduce){.slide,.cta{transition:none}}
-  </style>
+  <meta name="theme-color" content="#174c4f">
+  <meta name="description" content="Explore Mafia Island with Mama Africa Mafia, a business created and run by local women. Discover snorkelling, sandbanks and lagoons. Plan your day on WhatsApp.">
+  <link rel="canonical" href="https://mamaafricamafia.com/">
+  <title>Mama Africa Mafia | Island experiences, created by local women</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="landing-v2/preview-v2.css?v=20261024-i18n1">
+  <script src="landing-v2/preview-v2-data.js?v=20261020-tourcontent1" defer></script>
+  <script src="landing-v2/preview-v2-tour-translations.js?v=20261024-i18n1" defer></script>
+  <script src="landing-v2/preview-v2-i18n.js?v=20261025-credit1" defer></script>
+  <script src="landing-v2/preview-v2.js?v=20261025-root1" defer></script>
+  <script src="landing-v2/preview-v2-hero.js?v=20261015" defer></script>
+  <script src="landing-v2/preview-v2-reviews.js?v=20261024-i18n1" defer></script>
+  <script src="landing-v2/preview-v2-whatsapp.js?v=20261014-oval2" defer></script>
 </head>
 <body>
-  <div class="page">
-  <header class="topbar">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="header wrap">
     <a class="brand" href="#top" aria-label="Mama Africa Mafia home">
-      <svg viewBox="0 0 52 52" aria-hidden="true" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M26 7v4M14.2 12.2l2.9 2.9M37.8 12.2l-2.9 2.9M7 25h4M41 25h4" stroke="#C6914A" stroke-width="2" stroke-linecap="round"></path>
-        <path d="M16 28a10 10 0 0 1 20 0" stroke="#C6914A" stroke-width="2" stroke-linecap="round"></path>
-        <path d="M5 33c5.3-3.2 10.7-3.2 16 0s10.7 3.2 16 0 8.7-3.2 10-3.2M5 41c5.3-3.2 10.7-3.2 16 0s10.7 3.2 16 0 8.7-3.2 10-3.2" stroke="#183C35" stroke-width="2.3" stroke-linecap="round"></path>
-      </svg>
-      <span class="brand-name"><span>Mama Africa</span><span>Mafia</span></span>
+      <img class="brand-logo" src="landing-v2/assets/preview-v2/mama-africa-logo-v3.png" width="2018" height="779" alt="Mama Africa — Mafia Island, Tanzania" decoding="async">
     </a>
-    <div class="top-note">Utende · Mafia Island · Tanzania</div>
+    <div class="header-actions">
+      <nav aria-label="Main navigation">
+        <a href="#experiences">Our experiences</a>
+        <a href="#story">Our story</a>
+      </nav>
+      <label class="language-picker"><span class="visually-hidden">Language</span><select id="site-language" aria-label="Language"><option value="en">EN</option><option value="it">IT</option><option value="fr">FR</option><option value="de">DE</option></select></label>
+    </div>
   </header>
-  <main id="top">
-    <section class="intro" aria-labelledby="main-title">
-      <span class="eyebrow">A new chapter is coming</span>
-      <h1 id="main-title">Feel the island.<br>Meet its people.</h1>
-      <p>Our new website is on its way. For restaurant visits, island adventures and moments to unwind, reach us directly.</p>
-      <a class="cta" href="https://wa.me/255692844498?text=Hello%20Mama%20Africa%20Mafia%2C%20I%27d%20like%20to%20know%20more." target="_blank" rel="noopener noreferrer">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.52 3.48A11.83 11.83 0 0 0 12.1 0C5.55 0 .22 5.33.22 11.88c0 2.09.55 4.13 1.59 5.93L.12 24l6.34-1.66a11.9 11.9 0 0 0 5.64 1.43h.01c6.55 0 11.88-5.33 11.88-11.88 0-3.17-1.24-6.15-3.47-8.4ZM12.1 21.75h-.01a9.9 9.9 0 0 1-5.04-1.38l-.36-.21-3.76.99 1-3.67-.24-.38a9.86 9.86 0 0 1-1.51-5.22c0-5.47 4.45-9.92 9.93-9.92a9.85 9.85 0 0 1 7.02 2.91 9.85 9.85 0 0 1 2.9 7.02c0 5.47-4.45 9.92-9.93 9.92Zm5.45-7.43c-.3-.15-1.77-.87-2.05-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.95 1.17-.18.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.46-.89-.79-1.49-1.77-1.67-2.07-.18-.3-.02-.46.14-.61.14-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.38-.02-.53-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51l-.57-.01c-.2 0-.52.08-.79.38s-1.04 1.02-1.04 2.49 1.07 2.89 1.22 3.09c.15.2 2.1 3.21 5.1 4.5.71.31 1.27.49 1.7.63.71.23 1.36.2 1.87.12.57-.08 1.77-.72 2.02-1.42.25-.7.25-1.3.18-1.42-.08-.13-.28-.2-.58-.35Z"></path></svg>
-        Chat with us on WhatsApp
-      </a>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-media is-paused" aria-hidden="true">
+        <img class="hero-image is-active" src="landing-v2/assets/preview-v2/hero-1680.webp" srcset="landing-v2/assets/preview-v2/hero-960.webp 960w, landing-v2/assets/preview-v2/hero-1680.webp 1672w" sizes="(max-width: 760px) 100vw, calc(100vw - 64px)" alt="" width="1672" height="941" fetchpriority="high">
+        <img class="hero-image" src="landing-v2/assets/preview-v2/sandbank-1080.webp" srcset="landing-v2/assets/preview-v2/sandbank-640.webp 640w, landing-v2/assets/preview-v2/sandbank-1080.webp 1080w" sizes="(max-width: 760px) 100vw, calc(100vw - 64px)" alt="" width="1080" height="810" fetchpriority="low" decoding="async">
+        <img class="hero-image" src="landing-v2/assets/preview-v2/lagoon-1080.webp" srcset="landing-v2/assets/preview-v2/lagoon-640.webp 640w, landing-v2/assets/preview-v2/lagoon-1080.webp 1080w" sizes="(max-width: 760px) 100vw, calc(100vw - 64px)" alt="" width="1080" height="810" fetchpriority="low" decoding="async">
+        <img class="hero-image" src="landing-v2/assets/preview-v2/sunset-1080.webp" srcset="landing-v2/assets/preview-v2/sunset-640.webp 640w, landing-v2/assets/preview-v2/sunset-1080.webp 1080w" sizes="(max-width: 760px) 100vw, calc(100vw - 64px)" alt="" width="1080" height="810" fetchpriority="low" decoding="async">
+      </div>
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <h1 id="hero-title"><span>Explore Mafia Island.</span><span>Empower Local Women.</span></h1>
+        <p class="hero-description">Discover Mafia Island through authentic experiences organized by the women who call it home.</p>
+        <a class="hero-rating" href="https://www.tripadvisor.co.za/Restaurant_Review-g12858825-d23590982-Reviews-Swahili_Local_Restaurants-Utende_Mafia_Island_Pwani_Region.html" target="_blank" rel="noopener noreferrer" aria-label="Swahili Local Restaurants on Tripadvisor, rated 4.9 out of 5"><svg viewBox="0 0 120 24" width="100" height="20" aria-hidden="true"><defs><clipPath id="hero-rating-fill"><rect width="117.6" height="24"/></clipPath><path id="hero-rating-star" d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></defs><g fill="currentColor" opacity=".3"><use href="#hero-rating-star"/><use href="#hero-rating-star" x="24"/><use href="#hero-rating-star" x="48"/><use href="#hero-rating-star" x="72"/><use href="#hero-rating-star" x="96"/></g><g fill="currentColor" clip-path="url(#hero-rating-fill)"><use href="#hero-rating-star"/><use href="#hero-rating-star" x="24"/><use href="#hero-rating-star" x="48"/><use href="#hero-rating-star" x="72"/><use href="#hero-rating-star" x="96"/></g></svg><span><strong>4.9 / 5 <span>on Tripadvisor ↗</span></strong></span></a>
+        <div class="hero-actions">
+          <a class="button button-sand" href="#experiences">Find your island experience <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 4v16m-6-6 6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          <a class="hero-story-link" href="#story">Meet the story behind Mama Africa</a>
+        </div>
+      </div>
+      <span class="hero-location"><svg width="15" height="18" viewBox="0 0 20 24" fill="none" aria-hidden="true"><path d="M18 10c0 6-8 12-8 12S2 16 2 10a8 8 0 1 1 16 0Z" stroke="currentColor" stroke-width="1.5"/><circle cx="10" cy="10" r="2.5" stroke="currentColor" stroke-width="1.5"/></svg>Mafia Island, Tanzania</span>
     </section>
-    <section class="gallery" aria-label="Mafia Island photo gallery" id="gallery">
-      <div class="slide is-active"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Mafia_Island%2C_Tanzania.jpg/1280px-Mafia_Island%2C_Tanzania.jpg" alt="Palm-lined beach on Mafia Island" fetchpriority="high"></div>
-      <div class="slide"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Mafia_Island_%2851554991378%29.jpg/1280px-Mafia_Island_%2851554991378%29.jpg" alt="Coast of Mafia Island at Chole Shamba" loading="eager"></div>
-      <div class="slide"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Mafia_Island%2C_Tanzania_%2851555487539%29.jpg/1280px-Mafia_Island%2C_Tanzania_%2851555487539%29.jpg" alt="Landscape on Mafia Island" loading="eager"></div>
+
+    <div class="local-note wrap" aria-label="Our approach">
+      <p>Created on the island.<br><strong>Built and run by its women.</strong></p>
+      <p>Choose an experience.<br><strong>Plan it directly with our team.</strong></p>
+      <a href="#story">A local business with a story to share <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+    </div>
+
+    <section class="experiences wrap" id="experiences" aria-labelledby="experiences-title">
+      <div class="section-heading">
+        <div><p class="section-label">Island experiences to explore</p><h2 id="experiences-title">Find your kind<br>of island day.</h2></div>
+        <p>From ocean encounters to island communities, there is more to Mafia than a day at the beach. Open an experience to explore its description and a suggested itinerary.</p>
+      </div>
+      <div class="tour-toolbar">
+        <div class="tour-filters" id="tour-filters" role="group" aria-label="Filter experiences">
+          <button class="filter-pill" type="button" data-tour-filter="all" aria-pressed="true" aria-controls="tour-list">All experiences</button>
+          <button class="filter-pill" type="button" data-tour-filter="ocean" aria-pressed="false" aria-controls="tour-list">Ocean &amp; reefs</button>
+          <button class="filter-pill" type="button" data-tour-filter="wildlife" aria-pressed="false" aria-controls="tour-list">Wildlife</button>
+          <button class="filter-pill" type="button" data-tour-filter="culture" aria-pressed="false" aria-controls="tour-list">Culture &amp; villages</button>
+          <button class="filter-pill" type="button" data-tour-filter="nature" aria-pressed="false" aria-controls="tour-list">Island &amp; nature</button>
+        </div>
+        <label class="tour-sort" for="tour-sort"><span>Sort by</span><select id="tour-sort" aria-controls="tour-list"><option value="featured">Featured</option><option value="price-asc">Price: low to high</option><option value="price-desc">Price: high to low</option></select></label>
+      </div>
+      <div class="tour-results-meta"><p id="tour-count" role="status" aria-live="polite" aria-atomic="true"></p><p class="preview-pricing-note">Prices in USD · Confirm availability on WhatsApp</p></div>
+      <div class="tour-grid" id="tour-list"></div>
+      <p class="tour-empty" id="tour-empty" hidden>No experiences match this filter. Choose another category.</p>
+      <nav class="tour-pagination" id="tour-pagination" aria-label="Experience pages" hidden><button class="page-button" type="button" data-page-step="-1" aria-controls="tour-list"><span aria-hidden="true">←</span> Previous</button><span id="tour-page-label"></span><button class="page-button" type="button" data-page-step="1" aria-controls="tour-list">Next <span aria-hidden="true">→</span></button></nav>
+      <noscript><p class="tour-note">Enable JavaScript to open the tour cards. You can reach Mama Africa Mafia on WhatsApp at +255 692 844 498.</p></noscript>
+    </section>
+
+    <section class="story" id="story" aria-labelledby="story-title">
+      <div class="story-layout wrap">
+        <div class="story-heading"><p class="section-label">The women behind Mama Africa</p><h2 id="story-title">She began<br>on the beach.<br>They built<br>a business.</h2><a class="story-link" href="#contact">Come and be part of the next chapter <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+        <div class="story-copy">
+          <figure class="story-portrait"><img src="landing-v2/assets/preview-v2/zuby-portrait.png" width="1122" height="1402" alt="Zuby, founder of Mama Africa Mafia, beside the sea" loading="lazy" decoding="async"><figcaption>Zuby · Founder of Mama Africa Mafia</figcaption></figure>
+          <p class="story-lead">Mama Africa Mafia was created by Zuby and is run by local women. Their work is rooted in the island, its community and a determination to build something of their own.</p>
+          <p>After years in tourist hospitality, Zuby lost her job during the pandemic. With her family relying on her income, she began selling food and drinks on the beach.</p>
+          <p>That beginning grew into a local restaurant, with other women joining the work. When guests started asking about island excursions, Zuby sought funding, invested in a boat and opened a new chapter on the water.</p>
+          <p>Today, Mama Africa brings together a local network of women and other people across the community. The ambition is simple: build an independent business, create opportunity and welcome visitors to Mafia Island.</p>
+          <div class="story-values"><span>Local roots</span><span>Women-led enterprise</span><span>A personal welcome</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="guest-reviews wrap" id="reviews" aria-labelledby="reviews-title">
+      <div class="section-heading"><div><p class="section-label">Guest experiences</p><h2 id="reviews-title">Island days,<br>remembered.</h2></div><p>Snorkelling, sandbanks and island adventures, through the experiences guests shared about Zuby’s team.</p></div>
+      <div class="review-list" id="review-list" aria-label="Tour review summaries">
+        <article class="review-card" id="review-REV-001" aria-labelledby="review-title-REV-001">
+          <header class="review-author"><span class="review-avatar" aria-hidden="true">AL</span><div><strong>Anaïs L</strong><span>Tripadvisor</span></div></header>
+          <span class="review-rating" aria-label="Rated 5 out of 5"><span class="review-stars" aria-hidden="true"><span class="review-stars-base"><svg viewBox="0 0 120 24" width="90" height="18" fill="currentColor" aria-hidden="true"><g transform="translate(0 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(24 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(48 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(72 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(96 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g></svg></span><span class="review-stars-fill" style="width:100%"><svg viewBox="0 0 120 24" width="90" height="18" fill="currentColor" aria-hidden="true"><g transform="translate(0 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(24 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(48 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(72 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(96 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g></svg></span></span><span>5/5</span></span>
+          <h3 id="review-title-REV-001">Kitutia reef &amp; sandbank</h3>
+          <p class="review-summary">A private outing to Kitutia and the reef featured vibrant snorkeling and a freshly grilled fish lunch on an isolated sandbank.</p>
+          <footer><time datetime="2026-03-23">Mar 2026</time><a href="https://www.tripadvisor.co.za/ShowUserReviews-g12858825-d23590982-r1053948406-Swahili_Local_Restaurants-Utende_Mafia_Island_Pwani_Region.html" target="_blank" rel="noopener noreferrer" aria-label="Read the source review by Anaïs L">Read source <span aria-hidden="true">↗</span></a></footer>
+        </article>
+        <article class="review-card" id="review-REV-008" aria-labelledby="review-title-REV-008">
+          <header class="review-author"><span class="review-avatar" aria-hidden="true">S</span><div><strong>Stefano</strong><span>Tripadvisor</span></div></header>
+          <span class="review-rating" aria-label="Rated 5 out of 5"><span class="review-stars" aria-hidden="true"><span class="review-stars-base"><svg viewBox="0 0 120 24" width="90" height="18" fill="currentColor" aria-hidden="true"><g transform="translate(0 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(24 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(48 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(72 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(96 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g></svg></span><span class="review-stars-fill" style="width:100%"><svg viewBox="0 0 120 24" width="90" height="18" fill="currentColor" aria-hidden="true"><g transform="translate(0 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(24 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(48 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(72 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(96 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g></svg></span></span><span>5/5</span></span>
+          <h3 id="review-title-REV-008">Lagoon, ruins &amp; Chole</h3>
+          <p class="review-summary">Visited Blue Lagoon, Kua ruins and Chole village, followed by grilled fish on an ocean sandbank; praises Zuby’s reliability.</p>
+          <footer><time datetime="2024-01-03">Jan 2024</time><a href="https://www.tripadvisor.co.za/ShowUserReviews-g12858825-d23590982-r932156697-Swahili_Local_Restaurants-Utende_Mafia_Island_Pwani_Region.html" target="_blank" rel="noopener noreferrer" aria-label="Read the source review by Stefano">Read source <span aria-hidden="true">↗</span></a></footer>
+        </article>
+        <article class="review-card" id="review-REV-009" aria-labelledby="review-title-REV-009">
+          <header class="review-author"><span class="review-avatar" aria-hidden="true">BL</span><div><strong>Brenda L</strong><span>Tripadvisor</span></div></header>
+          <span class="review-rating" aria-label="Rated 5 out of 5"><span class="review-stars" aria-hidden="true"><span class="review-stars-base"><svg viewBox="0 0 120 24" width="90" height="18" fill="currentColor" aria-hidden="true"><g transform="translate(0 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(24 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(48 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(72 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(96 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g></svg></span><span class="review-stars-fill" style="width:100%"><svg viewBox="0 0 120 24" width="90" height="18" fill="currentColor" aria-hidden="true"><g transform="translate(0 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(24 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(48 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(72 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(96 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g></svg></span></span><span>5/5</span></span>
+          <h3 id="review-title-REV-009">Snorkelling &amp; Chole Island</h3>
+          <p class="review-summary">Snorkeling, a sandbank lunch and a Chole Island visit delivered good value while supporting the local community.</p>
+          <footer><time datetime="2022-11-01">Nov 2022</time><a href="https://www.tripadvisor.co.za/ShowUserReviews-g12858825-d23590982-r866791312-Swahili_Local_Restaurants-Utende_Mafia_Island_Pwani_Region.html" target="_blank" rel="noopener noreferrer" aria-label="Read the source review by Brenda L">Read source <span aria-hidden="true">↗</span></a></footer>
+        </article>
+        <article class="review-card" id="review-REV-010" aria-labelledby="review-title-REV-010">
+          <header class="review-author"><span class="review-avatar" aria-hidden="true">A</span><div><strong>AbiF</strong><span>Tripadvisor</span></div></header>
+          <span class="review-rating" aria-label="Rated 5 out of 5"><span class="review-stars" aria-hidden="true"><span class="review-stars-base"><svg viewBox="0 0 120 24" width="90" height="18" fill="currentColor" aria-hidden="true"><g transform="translate(0 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(24 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(48 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(72 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(96 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g></svg></span><span class="review-stars-fill" style="width:100%"><svg viewBox="0 0 120 24" width="90" height="18" fill="currentColor" aria-hidden="true"><g transform="translate(0 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(24 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(48 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(72 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(96 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g></svg></span></span><span>5/5</span></span>
+          <h3 id="review-title-REV-010">Local boat adventures</h3>
+          <p class="review-summary">Recommends the local boat team for fishing, snorkeling, sunset cruises and marine adventures, with personal attention and local knowledge.</p>
+          <footer><time datetime="2022-01-21">Jan 2022</time><a href="https://www.tripadvisor.co.za/ShowUserReviews-g12858825-d23590982-r825519907-Swahili_Local_Restaurants-Utende_Mafia_Island_Pwani_Region.html" target="_blank" rel="noopener noreferrer" aria-label="Read the source review by AbiF">Read source <span aria-hidden="true">↗</span></a></footer>
+        </article>
+        <article class="review-card" id="review-REV-011" aria-labelledby="review-title-REV-011">
+          <header class="review-author"><span class="review-avatar" aria-hidden="true">TN</span><div><strong>Theo Nunn</strong><span>Tripadvisor</span></div></header>
+          <span class="review-rating" aria-label="Rated 5 out of 5"><span class="review-stars" aria-hidden="true"><span class="review-stars-base"><svg viewBox="0 0 120 24" width="90" height="18" fill="currentColor" aria-hidden="true"><g transform="translate(0 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(24 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(48 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(72 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(96 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g></svg></span><span class="review-stars-fill" style="width:100%"><svg viewBox="0 0 120 24" width="90" height="18" fill="currentColor" aria-hidden="true"><g transform="translate(0 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(24 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(48 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(72 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(96 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g></svg></span></span><span>5/5</span></span>
+          <h3 id="review-title-REV-011">A tailored island day</h3>
+          <p class="review-summary">A tailored day combined snorkeling, Chole Island, Blue Lagoon, a sandbank meal and a sunset cruise with local guides.</p>
+          <footer><time datetime="2022-01-20">Jan 2022</time><a href="https://www.tripadvisor.co.za/ShowUserReviews-g12858825-d23590982-r825432401-Swahili_Local_Restaurants-Utende_Mafia_Island_Pwani_Region.html" target="_blank" rel="noopener noreferrer" aria-label="Read the source review by Theo Nunn">Read source <span aria-hidden="true">↗</span></a></footer>
+        </article>
+        <article class="review-card" id="review-REV-023" aria-labelledby="review-title-REV-023">
+          <header class="review-author"><span class="review-avatar" aria-hidden="true">EN</span><div><strong>Elly N</strong><span>Tripadvisor</span></div></header>
+          <span class="review-rating is-unavailable">Rating not available</span>
+          <h3 id="review-title-REV-023">Guided snorkelling</h3>
+          <p class="review-summary">Recalls a memorable guided snorkeling excursion arranged by the Mafia Mammas.</p>
+          <footer><time datetime="2025-11-05">Nov 2025</time><a href="https://www.tripadvisor.co.za/ShowUserReviews-g12858825-d23590982-r1037862272-Swahili_Local_Restaurants-Utende_Mafia_Island_Pwani_Region.html" target="_blank" rel="noopener noreferrer" aria-label="Read the source review by Elly N">Read source <span aria-hidden="true">↗</span></a></footer>
+        </article>
+        <article class="review-card" id="review-REV-024" aria-labelledby="review-title-REV-024">
+          <header class="review-author"><span class="review-avatar" aria-hidden="true">M</span><div><strong>Melanie_83</strong><span>Tripadvisor</span></div></header>
+          <span class="review-rating is-unavailable">Rating not available</span>
+          <h3 id="review-title-REV-024">Snorkelling &amp; sunsets</h3>
+          <p class="review-summary">Recommends snorkeling and sunset-cruise trips organized at fair prices by Zuby’s team.</p>
+          <footer><time datetime="2025-05-08">May 2025</time><a href="https://www.tripadvisor.co.za/ShowUserReviews-g12858825-d23590982-r1006375513-Swahili_Local_Restaurants-Utende_Mafia_Island_Pwani_Region.html" target="_blank" rel="noopener noreferrer" aria-label="Read the source review by Melanie_83">Read source <span aria-hidden="true">↗</span></a></footer>
+        </article>
+        <article class="review-card" id="review-REV-043" aria-labelledby="review-title-REV-043">
+          <header class="review-author"><span class="review-avatar" aria-hidden="true">PL</span><div><strong>Phoebe L</strong><span>Google · via Wanderlog</span></div></header>
+          <span class="review-rating" aria-label="Rated 5 out of 5"><span class="review-stars" aria-hidden="true"><span class="review-stars-base"><svg viewBox="0 0 120 24" width="90" height="18" fill="currentColor" aria-hidden="true"><g transform="translate(0 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(24 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(48 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(72 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(96 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g></svg></span><span class="review-stars-fill" style="width:100%"><svg viewBox="0 0 120 24" width="90" height="18" fill="currentColor" aria-hidden="true"><g transform="translate(0 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(24 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(48 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(72 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(96 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g></svg></span></span><span>5/5</span></span>
+          <h3 id="review-title-REV-043">Whale shark encounter</h3>
+          <p class="review-summary">Describes a whale-shark excursion arranged by Zuby, with six swims and a boat away from other operators.</p>
+          <footer><a href="https://wanderlog.com/pt/list/geoCategory/208593" target="_blank" rel="noopener noreferrer" aria-label="Read the source review by Phoebe L">Read source <span aria-hidden="true">↗</span></a></footer>
+        </article>
+        <article class="review-card" id="review-REV-044" aria-labelledby="review-title-REV-044">
+          <header class="review-author"><span class="review-avatar" aria-hidden="true">RB</span><div><strong>Rachel B</strong><span>Google · via Wanderlog</span></div></header>
+          <span class="review-rating" aria-label="Rated 5 out of 5"><span class="review-stars" aria-hidden="true"><span class="review-stars-base"><svg viewBox="0 0 120 24" width="90" height="18" fill="currentColor" aria-hidden="true"><g transform="translate(0 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(24 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(48 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(72 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(96 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g></svg></span><span class="review-stars-fill" style="width:100%"><svg viewBox="0 0 120 24" width="90" height="18" fill="currentColor" aria-hidden="true"><g transform="translate(0 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(24 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(48 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(72 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(96 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g></svg></span></span><span>5/5</span></span>
+          <h3 id="review-title-REV-044">Lighthouse tour</h3>
+          <p class="review-summary">Highly recommends the Lighthouse Tour and the good value of locally organized activities.</p>
+          <footer><a href="https://wanderlog.com/pt/list/geoCategory/208593" target="_blank" rel="noopener noreferrer" aria-label="Read the source review by Rachel B">Read source <span aria-hidden="true">↗</span></a></footer>
+        </article>
+        <article class="review-card" id="review-REV-048" aria-labelledby="review-title-REV-048">
+          <header class="review-author"><span class="review-avatar" aria-hidden="true">CE</span><div><strong>Chen E</strong><span>Google · via Wanderlog</span></div></header>
+          <span class="review-rating" aria-label="Rated 5 out of 5"><span class="review-stars" aria-hidden="true"><span class="review-stars-base"><svg viewBox="0 0 120 24" width="90" height="18" fill="currentColor" aria-hidden="true"><g transform="translate(0 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(24 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(48 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(72 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(96 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g></svg></span><span class="review-stars-fill" style="width:100%"><svg viewBox="0 0 120 24" width="90" height="18" fill="currentColor" aria-hidden="true"><g transform="translate(0 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(24 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(48 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(72 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g><g transform="translate(96 0)"><path d="m12 2.5 3 6.1 6.7 1-4.8 4.7 1.1 6.7-6-3.2L6 21l1.1-6.7-4.8-4.7 6.7-1Z"/></g></svg></span></span><span>5/5</span></span>
+          <h3 id="review-title-REV-048">Whale shark outing</h3>
+          <p class="review-summary">Recalls an exciting, good-value whale-shark outing arranged through the team.</p>
+          <footer><time datetime="2025-10-08">Oct 2025</time><a href="https://wanderlog.com/place/details/2803539/swahili-local-restaurant-utende" target="_blank" rel="noopener noreferrer" aria-label="Read the source review by Chen E">Read source <span aria-hidden="true">↗</span></a></footer>
+        </article>
+        <article class="review-card" id="review-REV-049" aria-labelledby="review-title-REV-049">
+          <header class="review-author"><span class="review-avatar" aria-hidden="true">MZ</span><div><strong>Michelle Z</strong><span>Google · via Wanderlog</span></div></header>
+          <span class="review-rating is-unavailable">Rating not available</span>
+          <h3 id="review-title-REV-049">Two island trips</h3>
+          <p class="review-summary">Booked two trips with Zuby and praises their organization and her flexible approach.</p>
+          <footer><a href="https://wanderlog.com/list/geoCategory/208593/where-to-eat-best-restaurants-in-pwani-region" target="_blank" rel="noopener noreferrer" aria-label="Read the source review by Michelle Z">Read source <span aria-hidden="true">↗</span></a></footer>
+        </article>
+      </div>
+      <div class="review-navigation"><p id="review-position" role="status" aria-live="polite" aria-atomic="true">11 tour review summaries</p><div class="review-arrows" hidden><button id="review-previous" type="button" aria-label="Previous tour reviews" aria-controls="review-list"><span aria-hidden="true">←</span></button><button id="review-next" type="button" aria-label="Next tour reviews" aria-controls="review-list"><span aria-hidden="true">→</span></button></div></div>
+      <p class="review-provenance">Reviews were posted for <a href="https://www.tripadvisor.co.za/Restaurant_Review-g12858825-d23590982-Reviews-Swahili_Local_Restaurants-Utende_Mafia_Island_Pwani_Region.html" target="_blank" rel="noopener noreferrer">Swahili Local Restaurant, Utende</a>. These are editorial summaries; open each source to read the original feedback.</p>
+    </section>
+
+<section class="booking wrap" id="contact" aria-labelledby="booking-title">
+      <div><p class="section-label">A conversation away</p><h2 id="booking-title">Your island day<br>starts with a hello.</h2></div>
+      <div class="booking-copy"><p>Tell us your dates, who you’re travelling with and the experience you have in mind. We’ll talk through the details with you on WhatsApp.</p><a class="button button-teal" data-booking="general">Plan my day on WhatsApp <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a><small>Details and availability are confirmed directly with the team.</small></div>
     </section>
   </main>
+
   <footer class="footer">
-    <strong>Mama Africa Mafia · Utende</strong>
-    <span class="credits">Photos: <a href="https://commons.wikimedia.org/wiki/File:Mafia_Island,_Tanzania.jpg" target="_blank" rel="noopener noreferrer">Gill Penney</a> and Nina R (<a href="https://commons.wikimedia.org/wiki/File:Mafia_Island_(51554991378).jpg" target="_blank" rel="noopener noreferrer">1</a>, <a href="https://commons.wikimedia.org/wiki/File:Mafia_Island,_Tanzania_(51555487539).jpg" target="_blank" rel="noopener noreferrer">2</a>), <a href="https://creativecommons.org/licenses/by/2.0/" target="_blank" rel="noopener noreferrer">CC BY 2.0</a>. Images cropped to fit.</span>
+    <div class="footer-main wrap"><a class="brand" href="#top" aria-label="Mama Africa Mafia home"><img class="brand-logo" src="landing-v2/assets/preview-v2/mama-africa-logo-v3.png" width="2018" height="779" alt="Mama Africa — Mafia Island, Tanzania" decoding="async"></a><p>Explore the island.<br>Support a locally run, women-led business.</p><a class="footer-top" href="#top">Back to the top ↑</a></div>
+    <div class="footer-small wrap"><span>Mama Africa Mafia · TIN 133-999-949</span><a href="https://wa.me/971562873135" target="_blank" rel="noopener noreferrer">Powered by Rosetta Ventures Digital Solutions</a></div>
   </footer>
-  </div>
-  <script>
-    const slides = [...document.querySelectorAll('.slide')];
-    let current = 0;
-    let timer;
-    function show(index) {
-      current = (index + slides.length) % slides.length;
-      slides.forEach((slide, i) => slide.classList.toggle('is-active', i === current));
-    }
-    function play() {
-      clearInterval(timer);
-      if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches && !document.hidden) timer = setInterval(() => show(current + 1), 5500);
-    }
-    document.addEventListener('visibilitychange', play);
-    play();
-  </script>
-
-
-</body></html>
+  <a class="whatsapp-float" href="https://wa.me/255692844498" data-booking="general" target="_blank" rel="noopener noreferrer" aria-label="Chat with Zuby on WhatsApp" title="Chat with Zuby on WhatsApp">
+    <span class="whatsapp-hint" role="status" aria-live="polite">Hi, how can I help you?</span>
+    <img class="whatsapp-avatar" src="landing-v2/assets/preview-v2/zuby-portrait.png" width="56" height="56" alt="" loading="eager" decoding="async">
+    <svg class="whatsapp-icon" width="32" height="32" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.074-.297-.148-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.297-.497.1-.198.05-.372-.025-.521-.074-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479s1.065 2.876 1.213 3.074c.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26C2.167 6.449 6.602 2.015 12.055 2.015c2.64 0 5.122 1.029 6.988 2.896a9.825 9.825 0 0 1 2.893 6.994c-.004 5.45-4.439 9.884-9.885 9.884M20.462 3.488A11.815 11.815 0 0 0 12.056 0C5.495 0 .143 5.35.141 11.924c0 2.102.549 4.154 1.592 5.965L0 24l6.335-1.652a11.944 11.944 0 0 0 5.715 1.455h.005c6.574 0 11.924-5.35 11.927-11.925a11.87 11.87 0 0 0-3.495-8.39"/></svg>
+  </a>
+</body>
+</html>
