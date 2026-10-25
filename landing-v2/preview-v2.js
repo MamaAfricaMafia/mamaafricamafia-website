@@ -5,6 +5,8 @@
   if (!config || !tourList) return;
   const i18n = window.MAMA_AFRICA_I18N;
   const tr = i18n?.tr || ((text) => text);
+  const assetBase = new URL(".", document.currentScript.src);
+  const assetUrl = (path) => new URL(path, assetBase).href;
 
   const escape = (value) => String(value).replace(/[&<>"']/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[char]);
   const whatsappUrl = (message) => /^\d{8,15}$/.test(config.whatsappNumber)
@@ -35,7 +37,7 @@
     const book = url ? `<a class="button button-teal tour-book" href="${escape(url)}" target="_blank" rel="noopener noreferrer" aria-label="${escape(i18n.bookLabel(tour.name))}">${escape(tr("Book Now"))} ${arrow}</a>` : `<p class="missing-contact">${escape(tr("WhatsApp contact to be confirmed."))}</p>`;
     return `<article class="tour-card" id="tour-${id}" aria-labelledby="title-${id}">
       <div class="tour-cover">
-        <img src="${escape(tour.image)}" srcset="${escape(tour.imageSmall)} ${tour.imageSmallWidth || 640}w, ${escape(tour.image)} ${tour.imageWidth || 1080}w" sizes="(max-width:760px) calc(100vw - 40px), calc((100vw - 140px) / 3)" alt="${escape(tour.alt)}" width="1448" height="1086" loading="lazy">
+        <img src="${escape(assetUrl(tour.image))}" srcset="${escape(assetUrl(tour.imageSmall))} ${tour.imageSmallWidth || 640}w, ${escape(assetUrl(tour.image))} ${tour.imageWidth || 1080}w" sizes="(max-width:760px) calc(100vw - 40px), calc((100vw - 140px) / 3)" alt="${escape(tour.alt)}" width="1448" height="1086" loading="lazy">
         <span class="tour-price">${escape(priceLabel)}</span>
         ${tour.seasonal ? `<span class="tour-season">${escape(tr("Seasonal"))}</span>` : ''}
         <div class="tour-cover-copy"><h3 id="title-${id}">${escape(tour.name)}</h3><p>${escape(tour.subtitle)}</p><span class="tour-cover-action">${escape(tr("Explore this tour"))} <span class="tour-plus">${plus}</span></span></div>
