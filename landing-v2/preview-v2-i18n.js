@@ -91,7 +91,7 @@
     ["Explore the island.", "Esplora l'isola.", "Explorez l'île.", "Entdecke die Insel."],
     ["Support a locally run, women-led business.", "Sostieni un'impresa locale guidata da donne.", "Soutenez une entreprise locale dirigée par des femmes.", "Unterstütze ein lokales Unternehmen, das von Frauen geführt wird."],
     ["Back to the top ↑", "Torna all'inizio ↑", "Retour en haut ↑", "Nach oben ↑"],
-    ["Powered by Rosett Ventures", "Con il supporto di Rosett Ventures", "Avec le soutien de Rosett Ventures", "Unterstützt von Rosett Ventures"],
+    ["Powered by Rosetta Ventures Digital Solutions", "Con il supporto di Rosetta Ventures Digital Solutions", "Avec le soutien de Rosetta Ventures Digital Solutions", "Unterstützt von Rosetta Ventures Digital Solutions"],
     ["Hi, how can I help you?", "Ciao, come posso aiutarti?", "Bonjour, comment puis-je vous aider ?", "Hallo, wie kann ich dir helfen?"],
     ["Book Now", "Prenota ora", "Réserver", "Jetzt buchen"],
     ["Seasonal", "Stagionale", "Saisonnier", "Saisonal"],
