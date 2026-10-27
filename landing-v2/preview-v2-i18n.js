@@ -19,7 +19,7 @@
     ["Choose an experience.", "Scegli un'esperienza.", "Choisissez une expérience.", "Wähle ein Erlebnis."],
     ["Plan it directly with our team.", "Organizzala direttamente con il nostro team.", "Organisez-la directement avec notre équipe.", "Plane es direkt mit unserem Team."],
     ["A local business with a story to share", "Un'impresa locale con una storia da raccontare", "Une entreprise locale avec une histoire à raconter", "Ein lokales Unternehmen mit einer Geschichte"],
-    ["Island experiences to explore", "Esperienze da vivere sull'isola", "Des expériences à vivre sur l'île", "Erlebnisse auf der Insel"],
+    ["Mafia Island tours and excursions", "Escursioni e tour all'isola di Mafia", "Excursions et visites de l'île de Mafia", "Ausflüge und Touren auf Mafia Island"],
     ["Find your kind", "Trova la tua", "Trouvez votre", "Finde deinen"],
     ["of island day.", "giornata sull'isola.", "journée sur l'île.", "perfekten Inseltag."],
     ["From ocean encounters to island communities, there is more to Mafia than a day at the beach. Open an experience to explore its description and a suggested itinerary.", "Dagli incontri in mare alla vita delle comunità locali, Mafia offre molto più di una giornata in spiaggia. Apri un'esperienza per leggere la descrizione e un itinerario suggerito.", "Des rencontres en mer à la vie des communautés locales, Mafia offre bien plus qu'une journée à la plage. Ouvrez une expérience pour découvrir sa description et un itinéraire suggéré.", "Von Begegnungen im Meer bis zum Leben der Inselgemeinschaften bietet Mafia mehr als einen Tag am Strand. Öffne ein Erlebnis, um die Beschreibung und einen Routenvorschlag zu lesen."],
@@ -106,9 +106,11 @@
   const localeIndex = { en: 0, it: 1, fr: 2, de: 3 };
   const params = new URLSearchParams(window.location.search);
   const requested = params.get("lang");
+  const isPreview = /\/landing-v2(?:\/|$)/.test(window.location.pathname);
+  const pathLocale = window.location.pathname.match(/\/(it|fr|de)(?:\/|$)/)?.[1];
   let saved = "";
   try { saved = window.localStorage.getItem("mama-africa-language") || ""; } catch (_) {}
-  const lang = Object.hasOwn(localeIndex, requested) ? requested : Object.hasOwn(localeIndex, saved) ? saved : "en";
+  const lang = pathLocale || (isPreview && Object.hasOwn(localeIndex, requested) ? requested : isPreview && Object.hasOwn(localeIndex, saved) ? saved : "en");
   const dictionary = new Map(rows.map((row) => [row[0], row[localeIndex[lang]]]));
   const tr = (source) => dictionary.get(source) || source;
   document.documentElement.lang = lang;
@@ -121,8 +123,13 @@
       if (!Object.hasOwn(localeIndex, selected)) return;
       try { window.localStorage.setItem("mama-africa-language", selected); } catch (_) {}
       const next = new URL(window.location.href);
-      if (selected === "en") next.searchParams.delete("lang");
-      else next.searchParams.set("lang", selected);
+      if (isPreview) {
+        if (selected === "en") next.searchParams.delete("lang");
+        else next.searchParams.set("lang", selected);
+      } else {
+        next.pathname = selected === "en" ? "/" : `/${selected}/`;
+        next.searchParams.delete("lang");
+      }
       window.location.assign(next.href);
     });
   }
@@ -201,7 +208,7 @@
     }
     document.title = tr(document.title);
     const description = document.querySelector('meta[name="description"]');
-    if (description) {
+    if (description && isPreview) {
       description.content = {
         it: "Esplora l'isola di Mafia con Mama Africa Mafia, un'impresa creata e gestita da donne del posto. Scopri snorkeling, banchi di sabbia e lagune. Organizza la tua giornata su WhatsApp.",
         fr: "Explorez l'île de Mafia avec Mama Africa Mafia, une entreprise créée et dirigée par des femmes de l'île. Découvrez snorkeling, bancs de sable et lagunes. Organisez votre journée sur WhatsApp.",
