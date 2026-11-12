@@ -58,6 +58,16 @@
     </article>`;
   }).join("");
 
+  const photoCredits = document.querySelector("#photo-credits-list");
+  if (photoCredits) {
+    const seen = new Set();
+    photoCredits.innerHTML = config.tours.filter((tour) => {
+      if (!tour.photoSourceUrl || seen.has(tour.photoSourceUrl)) return false;
+      seen.add(tour.photoSourceUrl);
+      return true;
+    }).map((tour) => `<li><a href="${escape(tour.photoSourceUrl)}" target="_blank" rel="noopener noreferrer">${escape(tour.photoTitle)}</a> · ${escape(tour.photoAuthor)} · ${escape(tour.photoPlace)} · <a href="${escape(tour.photoLicenseUrl)}" target="_blank" rel="noopener noreferrer">${escape(tour.photoLicense)}</a></li>`).join("");
+  }
+
   const mobileQuery = window.matchMedia("(max-width: 760px)");
   const filterControls = document.querySelector("#tour-filters");
   const sortControl = document.querySelector("#tour-sort");

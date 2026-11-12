@@ -18,9 +18,9 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
         "wildlife"
       ],
       "seasonal": false,
-      "image": "assets/preview-v2/snorkelling-1080.webp",
-      "imageSmall": "assets/preview-v2/snorkelling-640.webp",
-      "alt": "Illustrative preview image for Snorkeling Trip Chole Bay",
+      "image": "assets/tour-photos/snorkelling-large.jpg",
+      "imageSmall": "assets/tour-photos/snorkelling-small.jpg",
+      "alt": "People snorkeling off Zanzibar.",
       "description": "Discover the underwater beauty of Chole Bay on a guided snorkeling adventure through some of Mafia Island's most fascinating coral reefs.\n\nExplore three different snorkeling locations, each offering unique coral formations, colorful tropical fish, and an incredible variety of marine life.\n\nThe excursion is carefully planned around the tides to provide favorable visibility and snorkeling conditions. Between stops, relax aboard the boat and enjoy fresh fruit, drinking water, and light snacks while taking in the beautiful surroundings of Chole Bay.",
       "steps": [
         {
@@ -52,8 +52,14 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
       "sources": [
         "https://butiamamafiaisland.com/activities/"
       ],
-      "imageWidth": 1080,
-      "imageSmallWidth": 640
+      "imageWidth": 960,
+      "imageSmallWidth": 640,
+      "photoPlace": "Zanzibar",
+      "photoAuthor": "Mike from Vancouver",
+      "photoTitle": "Snorkeling 3 (14703965432)",
+      "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Snorkeling%203%20(14703965432).jpg",
+      "photoLicense": "CC BY-SA 2.0",
+      "photoLicenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
     },
     {
       "id": "chole",
@@ -68,9 +74,9 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
         "culture"
       ],
       "seasonal": false,
-      "image": "assets/preview-v2/village-1080.webp",
-      "imageSmall": "assets/preview-v2/village-640.webp",
-      "alt": "Illustrative preview image for Chole Village Tour",
+      "image": "assets/tour-photos/chole-large.jpg",
+      "imageSmall": "assets/tour-photos/chole-small.jpg",
+      "alt": "Coastal path and vegetation on Chole Island.",
       "description": "Step into the authentic island life of Chole, a peaceful tropical village located just off the coast of Mafia Island.\n\nExplore its narrow pathways, meet local residents, and discover the traditions that have shaped this small island community for generations.\n\nObserve the remarkable flying fox fruit bats, explore historical ruins, and learn about local activities such as seaweed farming and traditional wooden boat building.\n\nThis experience offers a unique opportunity to connect with the people of Chole Island and discover a side of Mafia that goes far beyond its beautiful beaches.",
       "steps": [
         {
@@ -106,8 +112,14 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
       "sources": [
         "https://arushatrips.com/tour/chole-island-tour-mafia-island/"
       ],
-      "imageWidth": 1080,
-      "imageSmallWidth": 640
+      "imageWidth": 960,
+      "imageSmallWidth": 640,
+      "photoPlace": "Chole Island",
+      "photoAuthor": "Dr Mary Gillham Archive Project",
+      "photoTitle": "Chole Island. Poinciana in bush. Casuarina on beach. Mangroves left",
+      "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Chole%20Island.%20Poinciana%20in%20bush.%20Casuarina%20on%20beach.%20Mangroves%20left.jpg",
+      "photoLicense": "CC BY 2.0",
+      "photoLicenseUrl": "https://creativecommons.org/licenses/by/2.0/"
     },
     {
       "id": "blue-lagoons-kua",
@@ -123,9 +135,9 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
         "nature"
       ],
       "seasonal": false,
-      "image": "assets/preview-v2/lagoon-1080.webp",
-      "imageSmall": "assets/preview-v2/lagoon-640.webp",
-      "alt": "Illustrative preview image for Blue Lagoons and Kua Ruins",
+      "image": "assets/tour-photos/lagoon-large.jpg",
+      "imageSmall": "assets/tour-photos/lagoon-small.jpg",
+      "alt": "Natural lagoon in Mafia Island Marine Park.",
       "description": "Experience a fascinating combination of history, nature, and adventure on an excursion to the ancient Kua Ruins and the spectacular Blue Lagoon on Juani Island.\n\nBegin by exploring the remains of a historic Swahili settlement, where ancient stone structures and mosques tell the story of the island's rich cultural past.\n\nContinue by boat through peaceful mangrove channels until you reach the breathtaking Blue Lagoon, a secluded natural pool surrounded by lush tropical vegetation.\n\nSwim in its calm waters, admire the unique landscape, and observe the fascinating upside-down jellyfish that inhabit the lagoon.\n\nA memorable journey through some of the most remarkable natural and historical locations in the Mafia archipelago.",
       "steps": [
         {
@@ -157,8 +169,14 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
       "sources": [
         "https://arushatrips.com/tour/juani-island-lagoon-tour-mafia-island/"
       ],
-      "imageWidth": 1080,
-      "imageSmallWidth": 640
+      "imageWidth": 960,
+      "imageSmallWidth": 640,
+      "photoPlace": "Mafia Island Marine Park",
+      "photoAuthor": "KangaMafia",
+      "photoTitle": "Natural Lagoon on Mafia Island - Marine Park",
+      "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Natural%20Lagoon%20on%20Mafia%20Island%20-%20Marine%20Park.jpg",
+      "photoLicense": "CC BY-SA 4.0",
+      "photoLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     {
       "id": "kitutia-mange-snorkeling",
@@ -174,9 +192,9 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
         "nature"
       ],
       "seasonal": false,
-      "image": "assets/preview-v2/snorkelling-1080.webp",
-      "imageSmall": "assets/preview-v2/snorkelling-640.webp",
-      "alt": "Illustrative preview image for Kitutia & Mange Snorkeling with Lunch",
+      "image": "assets/tour-photos/mafia-beach-large.jpg",
+      "imageSmall": "assets/tour-photos/mafia-beach-small.jpg",
+      "alt": "Beach and coastal vegetation on Mafia Island.",
       "description": "Explore two of Mafia Island's most spectacular offshore snorkeling destinations on an unforgettable marine adventure to Kitutia Reef and Mange Reef.\n\nDiscover vibrant coral formations, large schools of tropical fish, and the extraordinary biodiversity of the open ocean.\n\nKitutia offers an especially impressive snorkeling experience, with opportunities to encounter abundant marine life and, occasionally, larger ocean creatures.\n\nAfter exploring the first reef, continue to the beautiful Mange sandbank, where your local guides will prepare a shaded relaxation area and a freshly cooked barbecue lunch.\n\nEnjoy the stunning white sand, turquoise waters, and a second snorkeling experience around Mange Reef before heading back to Mafia Island.",
       "steps": [
         {
@@ -212,8 +230,14 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
       "sources": [
         "https://www.mafiadiving.com/wp-content/uploads/2019/12/MID-EXCURSIONS.pdf"
       ],
-      "imageWidth": 1080,
-      "imageSmallWidth": 640
+      "imageWidth": 960,
+      "imageSmallWidth": 640,
+      "photoPlace": "Mafia Island",
+      "photoAuthor": "Nina R from Africa",
+      "photoTitle": "Mafia Island (51554991378)",
+      "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Mafia%20Island%20(51554991378).jpg",
+      "photoLicense": "CC BY 2.0",
+      "photoLicenseUrl": "https://creativecommons.org/licenses/by/2.0/"
     },
     {
       "id": "fisherman-island-snorkeling",
@@ -229,9 +253,9 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
         "wildlife"
       ],
       "seasonal": false,
-      "image": "assets/preview-v2/snorkelling-1080.webp",
-      "imageSmall": "assets/preview-v2/snorkelling-640.webp",
-      "alt": "Illustrative preview image for Fisherman Island Snorkeling",
+      "image": "assets/tour-photos/mafia-boat-large.jpg",
+      "imageSmall": "assets/tour-photos/mafia-boat-small.jpg",
+      "alt": "Boat approaching an island off Mafia.",
       "description": "Discover the authentic fishing traditions of Mafia Island while enjoying a beautiful snorkeling experience in the waters of Chole Bay.\n\nTravel by boat to a small island used by local fishermen as a temporary base during their fishing activities.\n\nLearn about their traditional way of life, observe the surroundings where fishermen rest and prepare for their work, and experience a unique part of the local maritime culture.\n\nAfter exploring the island, continue your adventure with a guided snorkeling session in the clear waters of Chole Bay, home to colorful tropical fish and fascinating marine life.\n\nA wonderful combination of local culture, island exploration, and underwater discovery.",
       "steps": [
         {
@@ -263,8 +287,14 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
       "sources": [
         "https://butiamamafiaisland.com/activities/"
       ],
-      "imageWidth": 1080,
-      "imageSmallWidth": 640
+      "imageWidth": 960,
+      "imageSmallWidth": 640,
+      "photoPlace": "Mafia Island",
+      "photoAuthor": "Abdul255",
+      "photoTitle": "Mafia island ",
+      "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Mafia%20island%20.jpg",
+      "photoLicense": "CC BY-SA 3.0",
+      "photoLicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
     },
     {
       "id": "marimbani-sandbank-picnic",
@@ -280,9 +310,9 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
         "nature"
       ],
       "seasonal": false,
-      "image": "assets/preview-v2/sandbank-1080.webp",
-      "imageSmall": "assets/preview-v2/sandbank-640.webp",
-      "alt": "Illustrative preview image for Marimbani Sandbank & Picnic",
+      "image": "assets/tour-photos/sandbank-large.jpg",
+      "imageSmall": "assets/tour-photos/sandbank-small.jpg",
+      "alt": "Low-tide reef and sandy shallows in the Zanzibar Archipelago.",
       "description": "Escape to the peaceful beauty of Marimbani Sandbank, a stunning stretch of white sand surrounded by the turquoise waters of Chole Bay.\n\nAfter a short boat ride from Utende Beach, arrive at this beautiful natural sandbank, which emerges from the sea according to the tides.\n\nRelax beneath a shaded area while your local guides prepare a delicious meal using fresh ingredients sourced from local fishermen.\n\nDepending on the day's catch, lunch may feature freshly grilled fish, calamari, and traditional accompaniments.\n\nSpend your time swimming in crystal-clear waters, relaxing on the soft white sand, and enjoying the spectacular surroundings.\n\nA perfect experience for anyone seeking relaxation, natural beauty, and authentic island flavors.",
       "steps": [
         {
@@ -314,8 +344,14 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
       "sources": [
         "https://arushatrips.com/tour/marimbani-sandbank-picnic-mafia-island/"
       ],
-      "imageWidth": 1080,
-      "imageSmallWidth": 640
+      "imageWidth": 818,
+      "imageSmallWidth": 640,
+      "photoPlace": "Zanzibar Archipelago",
+      "photoAuthor": "Rod Waddington",
+      "photoTitle": "Inside the Reef, Zanzibar (8333385324)",
+      "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Inside%20the%20Reef%2C%20Zanzibar%20(8333385324).jpg",
+      "photoLicense": "CC BY-SA 2.0",
+      "photoLicenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
     },
     {
       "id": "whale-shark-snorkeling",
@@ -331,9 +367,9 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
         "wildlife"
       ],
       "seasonal": true,
-      "image": "assets/preview-v2/whale-shark-1080.webp",
-      "imageSmall": "assets/preview-v2/whale-shark-640.webp",
-      "alt": "Illustrative preview image for Whale Shark Snorkeling",
+      "image": "assets/tour-photos/whale-shark-large.jpg",
+      "imageSmall": "assets/tour-photos/whale-shark-small.jpg",
+      "alt": "Whale shark photographed off Mafia Island.",
       "description": "Experience one of Mafia Island's most extraordinary marine adventures: the opportunity to swim alongside magnificent whale sharks in their natural habitat.\n\nBegin your journey with a transfer to the departure point, where your local guides and boat captain will take you out into the ocean in search of these gentle giants.\n\nWhen a whale shark is spotted and conditions allow, enter the water with your snorkeling equipment for the unforgettable experience of observing the world's largest fish swimming gracefully through the sea.\n\nYour guides will help ensure a respectful encounter, maintaining a safe distance and avoiding any disturbance to the animals.\n\nWhale shark encounters depend on the season and natural conditions, and sightings cannot be guaranteed.",
       "steps": [
         {
@@ -369,8 +405,14 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
       "sources": [
         "https://afrowhalesharksafari.com/whale-shark-swimming/"
       ],
-      "imageWidth": 1080,
-      "imageSmallWidth": 640
+      "imageWidth": 960,
+      "imageSmallWidth": 640,
+      "photoPlace": "Mafia Island",
+      "photoAuthor": "Barlky",
+      "photoTitle": "Afro whale shark safari mafia island",
+      "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Afro%20whale%20shark%20safari%20mafia%20island.jpg",
+      "photoLicense": "CC BY-SA 4.0",
+      "photoLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     {
       "id": "turtle-hatching",
@@ -386,9 +428,9 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
         "nature"
       ],
       "seasonal": true,
-      "image": "assets/preview-v2/turtles-1080.webp",
-      "imageSmall": "assets/preview-v2/turtles-640.webp",
-      "alt": "Illustrative preview image for Turtle Hatching",
+      "image": "assets/tour-photos/turtle-large.jpg",
+      "imageSmall": "assets/tour-photos/turtle-small.jpg",
+      "alt": "Green sea turtle hatchling.",
       "description": "Witness one of nature's most unforgettable moments on Juani Island. Travel by boat to the turtle nesting beaches and discover the incredible journey of baby sea turtles making their way toward the Indian Ocean. Accompanied by local guides, learn about turtle conservation and experience this extraordinary seasonal wildlife event.\n\nDeparture depends on tides, hatching season and conservation arrangements. Sightings are not guaranteed.",
       "steps": [
         {
@@ -416,8 +458,14 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
       "sources": [
         "https://butiamamafiaisland.com/activities/"
       ],
-      "imageWidth": 1080,
-      "imageSmallWidth": 640
+      "imageWidth": 960,
+      "imageSmallWidth": 640,
+      "photoPlace": "Florida, USA",
+      "photoAuthor": "U.S. Fish and Wildlife Service Southeast Region; Keenan Adams",
+      "photoTitle": "Green Sea Turtle (6215133128)",
+      "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Green%20Sea%20Turtle%20(6215133128).jpg",
+      "photoLicense": "CC BY 2.0",
+      "photoLicenseUrl": "https://creativecommons.org/licenses/by/2.0/"
     },
     {
       "id": "bird-watching",
@@ -433,9 +481,9 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
         "nature"
       ],
       "seasonal": false,
-      "image": "assets/preview-v2/forest-1080.webp",
-      "imageSmall": "assets/preview-v2/forest-640.webp",
-      "alt": "Illustrative preview image for Bird Watching",
+      "image": "assets/tour-photos/birdwatching-large.jpg",
+      "imageSmall": "assets/tour-photos/birdwatching-small.jpg",
+      "alt": "Mangrove kingfisher, a species found on Mafia Island.",
       "description": "Discover the beautiful birdlife of Mafia Island with a guided birdwatching adventure. Explore peaceful coastal habitats and mangrove areas while observing different bird species in their natural environment. Early morning is an ideal time to discover the island's wildlife.\n\nDuration: Approximately 2 hours. Recommended time: 6:00–8:00 AM. An evening boat alternative may be arranged.",
       "steps": [
         {
@@ -463,8 +511,14 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
       "sources": [
         "https://kinasilodge.com/experience-nature-wildlife/"
       ],
-      "imageWidth": 1080,
-      "imageSmallWidth": 640
+      "imageWidth": 960,
+      "imageSmallWidth": 640,
+      "photoPlace": "Near Saadani National Park, Tanzania",
+      "photoAuthor": "Neil Strickland",
+      "photoTitle": "Halcyon senegaloides Saadani NP, Tanzania 1",
+      "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Halcyon%20senegaloides%20Saadani%20NP%2C%20Tanzania%201.jpg",
+      "photoLicense": "CC BY 2.0",
+      "photoLicenseUrl": "https://creativecommons.org/licenses/by/2.0/"
     },
     {
       "id": "mama-africa-north-tour",
@@ -480,9 +534,9 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
         "nature"
       ],
       "seasonal": false,
-      "image": "assets/preview-v2/lighthouse-1080.webp",
-      "imageSmall": "assets/preview-v2/lighthouse-640.webp",
-      "alt": "Illustrative preview image for Mama Africa North Tour",
+      "image": "assets/tour-photos/lighthouse-large.jpg",
+      "imageSmall": "assets/tour-photos/lighthouse-small.jpg",
+      "alt": "Ras Mkumbi Lighthouse on Mafia Island.",
       "description": "Follow the north-coast route through the coconut industry, Kirongwe fishmarket, the lighthouse and Kanga Beach, with a hippo-watching stop. Route and wildlife sightings depend on local conditions.",
       "steps": [
         {
@@ -510,8 +564,14 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
       "sources": [
         "https://mafiapotwesafaris.com/experience/north-coast"
       ],
-      "imageWidth": 1080,
-      "imageSmallWidth": 640
+      "imageWidth": 720,
+      "imageSmallWidth": 640,
+      "photoPlace": "Ras Mkumbi, Mafia Island",
+      "photoAuthor": "Harry Davis / Frontier Gap",
+      "photoTitle": "Ras Mkumbi Lighthouse closeup",
+      "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Ras%20Mkumbi%20Lighthouse%20closeup.jpg",
+      "photoLicense": "CC BY 2.0",
+      "photoLicenseUrl": "https://creativecommons.org/licenses/by/2.0/"
     },
     {
       "id": "utende-village-tour",
@@ -526,9 +586,9 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
         "culture"
       ],
       "seasonal": false,
-      "image": "assets/preview-v2/village-1080.webp",
-      "imageSmall": "assets/preview-v2/village-640.webp",
-      "alt": "Illustrative preview image for Utende Village Tour",
+      "image": "assets/tour-photos/village-large.jpg",
+      "imageSmall": "assets/tour-photos/village-small.jpg",
+      "alt": "Traditional building on Mafia Island.",
       "description": "Discover authentic island life on a guided walk through Utende Village. Explore local markets, traditional crafts, fishing culture and farming activities while learning about the everyday lives and traditions of Mafia Island's communities.\n\nDuration: Approximately 1.5–2 hours. Transport: Walking.",
       "steps": [
         {
@@ -564,8 +624,14 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
       "sources": [
         "https://arushatrips.com/tour/chole-island-tour-mafia-island/"
       ],
-      "imageWidth": 1080,
-      "imageSmallWidth": 640
+      "imageWidth": 960,
+      "imageSmallWidth": 640,
+      "photoPlace": "Mafia Island",
+      "photoAuthor": "Nina R from Africa",
+      "photoTitle": "Mafia Island, Tanzania (51554823206)",
+      "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Mafia%20Island%2C%20Tanzania%20(51554823206).jpg",
+      "photoLicense": "CC BY 2.0",
+      "photoLicenseUrl": "https://creativecommons.org/licenses/by/2.0/"
     },
     {
       "id": "kilindoni-market-sunset",
@@ -580,9 +646,9 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
         "culture"
       ],
       "seasonal": false,
-      "image": "assets/preview-v2/market-1080.webp",
-      "imageSmall": "assets/preview-v2/market-640.webp",
-      "alt": "Illustrative preview image for Kilindoni (Fish and Fruit Market) & Sunset",
+      "image": "assets/tour-photos/kilindoni-large.jpg",
+      "imageSmall": "assets/tour-photos/kilindoni-small.jpg",
+      "alt": "Aerial view of Kilindoni.",
       "description": "Explore Kilindoni, the vibrant main town of Mafia Island. Discover its colorful markets, local spices, fishing traditions and everyday trading activities. Meet local vendors and experience the authentic atmosphere of island life.\n\nThis tour does not include a sunset cruise.",
       "steps": [
         {
@@ -612,8 +678,14 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
       ],
       "planningNote": "Confirm market timing, transport and sunset location.",
       "sources": [],
-      "imageWidth": 1080,
-      "imageSmallWidth": 640
+      "imageWidth": 960,
+      "imageSmallWidth": 640,
+      "photoPlace": "Kilindoni, Mafia Island",
+      "photoAuthor": "Frontier Gap",
+      "photoTitle": "Kilindoni aerial view",
+      "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Kilindoni%20aerial%20view.jpg",
+      "photoLicense": "CC BY 2.0",
+      "photoLicenseUrl": "https://creativecommons.org/licenses/by/2.0/"
     },
     {
       "id": "mama-africa-sunset-cruise",
@@ -629,9 +701,9 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
         "nature"
       ],
       "seasonal": false,
-      "image": "assets/preview-v2/sandbank-1080.webp",
-      "imageSmall": "assets/preview-v2/sandbank-640.webp",
-      "alt": "Illustrative preview image for Mama Africa Sunset Cruise (in Dhow)",
+      "image": "assets/tour-photos/sunset-large.jpg",
+      "imageSmall": "assets/tour-photos/sunset-small.jpg",
+      "alt": "Dhow sailing beneath an orange sunset off Zanzibar.",
       "description": "Experience the magic of a Mafia Island sunset aboard a traditional wooden dhow. Sail across the peaceful Indian Ocean, enjoy beautiful coastal scenery and relax with tropical refreshments as the sun disappears beyond the horizon. Traditional drumming may also be arranged for an authentic island atmosphere.\n\nStandard refreshments, fruit and snacks are included. Alcoholic drinks cost extra. The route depends on weather and wind conditions; drumming is subject to availability.",
       "steps": [
         {
@@ -663,8 +735,14 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
       "sources": [
         "https://arushatrips.com/tour/marimbani-sandbank-picnic-mafia-island/"
       ],
-      "imageWidth": 1080,
-      "imageSmallWidth": 640
+      "imageWidth": 960,
+      "imageSmallWidth": 640,
+      "photoPlace": "Zanzibar",
+      "photoAuthor": "Rod Waddington",
+      "photoTitle": "Dhow Sunset, Zanzibar (10164046475)",
+      "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Dhow%20Sunset%2C%20Zanzibar%20(10164046475).jpg",
+      "photoLicense": "CC BY-SA 2.0",
+      "photoLicenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
     },
     {
       "id": "fishing-game",
@@ -679,9 +757,9 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
         "ocean"
       ],
       "seasonal": false,
-      "image": "assets/preview-v2/fishing-1080.webp",
-      "imageSmall": "assets/preview-v2/fishing-640.webp",
-      "alt": "Illustrative preview image for Fishing Game",
+      "image": "assets/tour-photos/fishing-large.jpg",
+      "imageSmall": "assets/tour-photos/fishing-small.jpg",
+      "alt": "Small boat on the water near Mafia Island.",
       "description": "Enjoy an exciting fishing adventure in the waters surrounding Mafia Island. Join experienced local fishermen for a half-day or full-day excursion and discover the thrill of fishing in the Indian Ocean. Depending on conditions, potential catches include Giant Trevally, Dogtooth Tuna, Yellowfin Tuna and Wahoo.\n\nFishing equipment and fresh fruit are included. The crew follows a catch-and-release approach. Fishing success is not guaranteed.",
       "steps": [
         {
@@ -713,8 +791,14 @@ window.MAMA_AFRICA_PREVIEW_V2 = {
       "sources": [
         "https://mafiakileleni.com/activities/"
       ],
-      "imageWidth": 1080,
-      "imageSmallWidth": 640
+      "imageWidth": 960,
+      "imageSmallWidth": 640,
+      "photoPlace": "Mafia Island",
+      "photoAuthor": "Jens Klinzing",
+      "photoTitle": "Mafia Island Harbour in Tanzania",
+      "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Mafia%20Island%20Harbour%20in%20Tanzania.jpg",
+      "photoLicense": "CC BY-SA 3.0",
+      "photoLicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
     }
   ]
 };
