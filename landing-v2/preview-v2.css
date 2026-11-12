@@ -113,6 +113,12 @@ h2 { margin: 0; font: 500 clamp(42px, 4.4vw, 62px)/1.08 var(--display); letter-s
 .tour-book { width: 100%; min-height: 48px; }
 .booking-hint { display: block; margin-top: 10px; text-align: center; font-size: 10px; color: #6c7875; }
 .tour-note { margin: 25px 0 0; color: #637471; font-size: 11px; line-height: 1.75; }
+.photo-credits { margin-top: 16px; border-top: 1px solid var(--line); padding-top: 16px; color: #637471; font-size: 11px; line-height: 1.75; }
+.photo-credits summary { cursor: pointer; color: var(--teal); font-weight: 600; }
+.photo-credits p { margin: 8px 0; }
+.photo-credits ul { margin: 8px 0 0; padding-left: 19px; }
+.photo-credits li + li { margin-top: 7px; }
+.photo-credits a { color: var(--teal); }
 .tour-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 24px; margin: 0 0 19px; }
 .tour-filters { display: flex; flex: 1; min-width: 0; flex-wrap: nowrap; align-items: center; gap: 8px; overflow-x: auto; overscroll-behavior-x: contain; scrollbar-width: none; padding: 8px; scroll-padding-inline: 8px; }
 .tour-filters::-webkit-scrollbar { display: none; }
